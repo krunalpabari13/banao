@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/src/pages
+/src/components
 # testing
 /coverage
 
