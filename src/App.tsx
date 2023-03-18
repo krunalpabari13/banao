@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ChildRoute, ScrollToTop } from "./components/exports";
-import { routeNames } from "./pages/routes";
+// import { ChildRoute, ScrollToTop } from "./components/exports";
+// import { routeNames } from "./pages/routes";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Gallery from "./pages/Gallery";
 
 function App() {
   useEffect(() => {
@@ -13,9 +14,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Routes>
-        <Route path="" element={<ChildRoute />}>
+        {/* <Route path="" element={<ChildRoute />}>
           <Route
             path={routeNames.Home.name}
             element={<routeNames.Home.component />}
@@ -40,7 +41,8 @@ function App() {
             path={routeNames.PrivacyAndPolicy.name}
             element={<routeNames.PrivacyAndPolicy.component />}
           />
-        </Route>
+        </Route> */}
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
     </BrowserRouter>
   );
