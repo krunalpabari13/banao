@@ -32,13 +32,13 @@ const Navbar = () => {
           <img src={Logo} alt="logo" />
         </Link>
         <div>
-          {navLink.map((nav) => (
-            <Link className="uppercase mx-5 text-sm" to={nav.link}>
+          {navLink.map((nav, index) => (
+            <Link key={index} className="uppercase mx-5 text-sm" to={nav.link}>
               {nav.nav}
             </Link>
           ))}
           <a
-            className="bg-[#CD4055] px-5 py-6 h-[4.063rem] text-white text-sm"
+            className="bg-[#CD4055] px-5 py-[1.4rem] h-[4.063rem] text-white text-sm"
             href="tel:+914444456765"
           >
             CALL: +91 4444-456-765
