@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Gallery from "./pages/Gallery";
+import Home from "./pages/Home";
 
 function App() {
   useEffect(() => {
@@ -42,6 +43,7 @@ function App() {
             element={<routeNames.PrivacyAndPolicy.component />}
           />
         </Route> */}
+        <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery/>} />
       </Routes>
     </BrowserRouter>
