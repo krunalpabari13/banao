@@ -8,6 +8,7 @@ import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import RecentWork from '../components/RecentWork';
 import Services from '../components/Services';
+import Testimonial from '../components/Testimonial';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <BusinessSummary />
       <Choose />
       <RecentWork />
+      <Testimonial />
       <Contact />
       <Footer />
     </div>
