@@ -1,5 +1,6 @@
 import React from 'react'
 import BusinessSummary from '../components/BusinessSummary';
+import Choose from '../components/Choose';
 import Greeting from '../components/Greeting';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
@@ -13,6 +14,7 @@ const Home = () => {
       <Greeting />
       <Services />
       <BusinessSummary />
+      <Choose />
     </div>
   )
 }
