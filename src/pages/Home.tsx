@@ -1,9 +1,11 @@
 import React from 'react'
 import BusinessSummary from '../components/BusinessSummary';
 import Choose from '../components/Choose';
+import Contact from '../components/Contact';
 import Greeting from '../components/Greeting';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import RecentWork from '../components/RecentWork';
 import Services from '../components/Services';
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
       <Services />
       <BusinessSummary />
       <Choose />
+      <RecentWork />
+      <Contact />
     </div>
   )
 }
