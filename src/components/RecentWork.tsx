@@ -19,7 +19,7 @@ const RecentWork = () => {
       </div>
       <div className="grid grid-cols-3 gap-5 mx-[13.75rem]">
         <img width="100%" className="col-span-2" src={Rectangle1} alt="recent work" />
-        <img className="h-[50rem]" src={Rectangle5} alt="recent work" />
+        <img src={Rectangle5} alt="recent work" />
         <img width="100%" src={Rectangle6} alt="recent work" />
         <img width="100%" src={RedBox} alt="recent work" />
         <img width="100%" src={Rectangle4} alt="recent work" />

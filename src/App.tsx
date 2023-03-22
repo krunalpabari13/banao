@@ -7,6 +7,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -16,6 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       {/* <ScrollToTop /> */}
+      <Navbar />
       <Routes>
         {/* <Route path="" element={<ChildRoute />}>
           <Route
@@ -44,8 +48,10 @@ function App() {
           />
         </Route> */}
         <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery/>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
