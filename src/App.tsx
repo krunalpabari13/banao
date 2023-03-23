@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./pages/About";
 
 function App() {
   useEffect(() => {
@@ -49,7 +50,8 @@ function App() {
         </Route> */}
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
