@@ -7,7 +7,7 @@ import Repair from "../assets/home/greeting/repair.svg";
 
 const Greeting = () => {
   return (
-    <div className="bg-[#FEF0A9] grid grid-cols-2 items-center h-[39.375rem]">
+    <div className="bg-[#F1F1EF] grid grid-cols-2 items-center h-[39.375rem]">
       <img className="-mb-[4.6rem]" src={Sec} alt="section" />
       <div>
         <h1 className="text-[2.625rem] mb-5">Welcome to <br /> Raghav Buildtech</h1>

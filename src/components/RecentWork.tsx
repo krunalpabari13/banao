@@ -12,14 +12,14 @@ const RecentWork = () => {
         <h2 className="text-[2.625rem] text-[#4044E9] mb-5">
           Check our recent work
         </h2>
-        <p className="text-sm text-[#545454] w-[22%] mx-auto">
+        <p className="text-sm text-[#545454] w-[22%] mx-auto mb-[3.75rem]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et magna.
         </p>
       </div>
       <div className="grid grid-cols-3 gap-5 mx-[13.75rem]">
         <img width="100%" className="col-span-2" src={Rectangle1} alt="recent work" />
-        <img src={Rectangle5} alt="recent work" />
+        <img width="100%" src={Rectangle5} alt="recent work" />
         <img width="100%" src={Rectangle6} alt="recent work" />
         <img width="100%" src={RedBox} alt="recent work" />
         <img width="100%" src={Rectangle4} alt="recent work" />

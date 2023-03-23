@@ -7,8 +7,8 @@ import TileSetters from "../assets/home/TileSetters.svg";
 
 const Services = () => {
   return (
-    <div className='grid grid-cols-2'>
-      <div className='pl-[7.5rem] pt-[6.5rem] pr-24'>
+    <div className='grid grid-cols-2 h-[49.125rem]'>
+      <div className='pl-[7.5rem] pt-[6.5rem] pr-24 w-[50vw]'>
         <h2 className='text-[2.625rem] mb-5'>Our Services</h2>
         <p className='text-[#545454] text-sm mb-[3.75rem]'>We provide transparent and tech enabled solutions to fill up space efficiently.</p>
         <div className='flex items-center justify-end mb-5'>
@@ -40,7 +40,7 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <img width="100%" src={Group} alt="services" />
+        <img className='w-[80vw] h-[49.125rem]' src={Group} alt="services" />
       </div>
     </div>
   )
