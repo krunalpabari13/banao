@@ -60,14 +60,14 @@ const FireAlarm = () => {
             />
             <p className="font-normal text-[13px] lg:text-sm">Commercial</p>
           </li>
-          <li className="flex items-center pb-3 lg:pb-5 cursor-pointer lg:justify-end w-full">
-            <Link to="/contact" className="font-normal text-[13px] lg:text-sm">Know more</Link>
+          <Link to="/contact" className="flex items-center pb-3 lg:pb-5 cursor-pointer lg:justify-end w-full">
+            <p className="font-normal text-[13px] lg:text-sm">Know more</p>
             <img
               src={Arrow}
               alt="Arrow"
               className="ml-2"
             />
-          </li>
+          </Link>
         </ul>
       </div>
     </div>

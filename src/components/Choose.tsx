@@ -1,23 +1,53 @@
 import React from "react";
-import Rectangle from "../assets/home/reason.svg";
+import Power from "../assets/home/Power.svg";
 
 const Choose = () => {
   return (
-    <div
-      style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(${Rectangle})` }}
-      className="h-[33rem] md:h-[40rem] lg:h-[49.125rem] bg-no-repeat bg-cover pl-[7.5rem] pt-16 md:pt-24 lg:pt-[11.938rem] text-white"
-    >
-      <h1 className="text-3xl md:text-4xl lg:text-[2.625rem] w-[80%] md:w-[70%] lg:w-[50%] mb-10 md:mb-16 lg:mb-[3.75rem]">We are high performance team with hands-on mentality</h1>
-      <h3 className="text-lg font-semibold mb-5">Why choose Raghav Buildtech?</h3>
-      <p className="text-sm w-[80%] md:w-[70%] w-[35%]">
-        un by experienced industry leaders with credibility on faster
-        turnaround, transparent design and highly reliable. Turnkey solution for
-        construction of new projects, repairs to renovations of old buildings,
-        interior designing, exterior beautification, water seepage expertise all
-        under one roof. Tech enabled, quality and cost conscious, OTIF (On Time
-        In Full) construction model, employing the least carbon footprint
-        techniques for environment conservation
-      </p>
+    <div className="md:grid grid-cols-1 md:grid-cols-12 grid-flow-row-dense">
+      <div className="md:col-start-7 md:col-end-13">
+        <img
+          src={Power}
+          alt="Power"
+          className="w-full"
+        />
+      </div>
+      <div
+        className="md:col-start-1 md:col-end-7 bg-[rgba(231,217,209,0.45)] md:pl-[120px] md:pr-[53px] pt-10 md:pt-[150px] px-10 aos-init aos-animate"
+        data-aos="fade-down"
+      >
+        <h1 className="font-normal text-[28px] md:text-[42px] text-[rgba(0,0,0,1)] pb-[40px]">
+          Why choose us?
+        </h1>
+        <ul className="list-disc max-w-[544px]">
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Dedicated support and constant onsite monitoring directly by the
+            leadership team.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Run by experienced industry leaders with credibility on faster
+            turnaround.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Transparent BOQ / BOM / quote / design.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Turnkey solution and Highly reliable task force with good skill set.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Experts in construction of new projects, repairs and renovations of
+            old buildings, interior designing, exterior beautification, water
+            seepage solutions.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Tech enabled platform, quality and cost conscious, OTIF (On Time In
+            Full) construction model.
+          </li>
+          <li className="list-item text-[rgba(84,84,84,1)] md:text-sm py-2 md:py-4">
+            Employing the least carbon footprint techniques for environment
+            conservation.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
