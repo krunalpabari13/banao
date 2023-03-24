@@ -5,6 +5,7 @@ import Renovation from "../assets/services/icons/renovation.svg";
 import Machin from "../assets/services/icons/machin.svg";
 import Arrow from "../assets/services/icons/Arrow.svg";
 import CCTV from "../assets/services/cctv.svg";
+import { Link } from "react-router-dom";
 
 const CCTVInstall = () => {
   return (
@@ -44,7 +45,7 @@ const CCTVInstall = () => {
             <p className="font-normal text-[13px] lg:text-sm">Commercial</p>
           </li>
           <li className="flex items-center pb-3 lg:pb-5 cursor-pointer lg:justify-end w-full">
-            <p className="font-normal text-[13px] lg:text-sm">Know more</p>
+            <Link to="/contact" className="font-normal text-[13px] lg:text-sm">Know more</Link>
             <img src={Arrow} alt="Arrow" className="ml-2" />
           </li>
         </ul>

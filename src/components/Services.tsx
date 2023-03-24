@@ -4,6 +4,7 @@ import ArrowOutward from "../assets/home/arrow-outward.svg";
 import Electrical from "../assets/home/Electrical.svg";
 import Plumbing from "../assets/home/Plumbing.svg";
 import TileSetters from "../assets/home/TileSetters.svg";
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -12,7 +13,7 @@ const Services = () => {
         <h2 className='text-3xl md:text-4xl lg:text-[2.625rem] mb-5 text-center md:text-start'>Our Services</h2>
         <p className='text-[#545454] text-sm mb-[3.75rem] text-center md:text-start'>We provide transparent and tech enabled solutions to fill up space efficiently.</p>
         <div className='flex items-center justify-end mb-5'>
-          <p className='text-sm'>View more</p>
+          <Link to="/services" className='text-sm'>View more</Link>
           <img src={ArrowOutward} alt="arrow outward" />
         </div>
         <div>
