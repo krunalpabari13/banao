@@ -19,18 +19,21 @@ const Goal = () => {
           growing needs of Bengaluru residential units initially and slowly
           spread the services across Karnataka and Tamilnadu.
         </p>
-        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-2 text-[13px] lg:text-[14px] font-normal text-black mt-10 lg:mt-0 self-end">
-          While there are many organised builders and contractors available to
+        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-1 lg:row-end-4 text-[13px] lg:text-xl font-normal text-black mt-10 lg:mt-0 self-end">
+          While there are many organized builders and contractors available to
           undertake construction of new buildings and creating superior
-          interiors, there are literally “NO” organised players in the market
+          interiors, there are literally “NO” organized players in the market
           who gives turnkey solution in the space of repairs and renovation of
           old residential houses – flats – Apartment complexes / commercial
           buildings. Raghav BuildTech aspires to fill up this space by proving
           that they are organized, efficient, tech enabled, quality and cost
-          conscious, transparent and reliable.
+          conscious, transparent and reliable. Old residential houses – flats –
+          Apartment complexes / commercial buildings. Raghav BuildTech aspires
+          to fill up this space by proving that they are organized, efficient,
+          tech enabled, quality and cost conscious, transparent and reliable.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-5">
+      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[5.688rem]">
         <div className="flex items-center lg:col-start-1 lg:col-end-6">
           <img
             src={Avatar}
@@ -52,13 +55,16 @@ const Goal = () => {
           Buildtech in the Construction, Project Management and Maintenance
           space through this tech enabled platform.
         </p>
-        <p className="lg:col-start-7 lg:col-end-13 md:row-start-2 text-[13px] lg:text-[14px] font-normal text-black mt-10 lg:mt-0 self-end">
+        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-1 lg:row-end-4 md:row-start-2 text-[13px] lg:text-xl font-normal text-black mt-10 lg:mt-0 self-end">
           As a business leader with enormous experience in Projects and
           Management, Healthcare Service delivery expertise, meticulous
           maintenance of advanced medical devices, P&amp;L management,
           Operations, sales, marketing &amp; business development skills and
           innovative digital healthcare delivery insights, he has demonstrated
           himself as a reliable leader and delivered strong business growth.
+          maintenance of advanced medical devices, P&amp;L management,
+          Operations, sales, marketing &amp; he has demonstrated himself as a
+          reliable leader and delivered strong business growth.
         </p>
       </div>
       <img src={Line} className="mx-auto w-full mt-[60px]" />
