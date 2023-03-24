@@ -7,10 +7,10 @@ import TileSetters from "../assets/home/TileSetters.svg";
 
 const Services = () => {
   return (
-    <div className='grid grid-cols-2 h-[49.125rem]'>
-      <div className='pl-[7.5rem] pt-[6.5rem] pr-24 w-[50vw]'>
-        <h2 className='text-[2.625rem] mb-5'>Our Services</h2>
-        <p className='text-[#545454] text-sm mb-[3.75rem]'>We provide transparent and tech enabled solutions to fill up space efficiently.</p>
+    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
+      <div className='pl-5 md:pl-14 lg:pl-[7.5rem] pt-5 md:pt-10 lg:pt-[6.5rem] pr-24 order-last lg:order-first mb-10 lg:mb-0'>
+        <h2 className='text-3xl md:text-4xl lg:text-[2.625rem] mb-5 text-center md:text-start'>Our Services</h2>
+        <p className='text-[#545454] text-sm mb-[3.75rem] text-center md:text-start'>We provide transparent and tech enabled solutions to fill up space efficiently.</p>
         <div className='flex items-center justify-end mb-5'>
           <p className='text-sm'>View more</p>
           <img src={ArrowOutward} alt="arrow outward" />
@@ -40,7 +40,7 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <img className='w-[80vw] h-[49.125rem]' src={Group} alt="services" />
+        <img width="100%" src={Group} alt="services" />
       </div>
     </div>
   )

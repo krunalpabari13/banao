@@ -7,12 +7,12 @@ import RedBox from "../assets/home/recentWork/RedBox.svg";
 
 const RecentWork = () => {
   return (
-    <div className="my-32">
+    <div className="my-10 md:my-20 lg:my-32">
       <div className="text-center">
-        <h2 className="text-[2.625rem] text-[#4044E9] mb-5">
+        <h2 className="text-3xl md:text-4xl lg:text-[2.625rem] text-[#4044E9] mb-5">
           Check our recent work
         </h2>
-        <p className="text-sm text-[#545454] w-[22%] mx-auto mb-[3.75rem]">
+        <p className="text-sm text-[#545454] w-[60%] md:w-[50%] lg:w-[35%] mx-auto mb-5 md:mb-10 lg:mb-[3.75rem]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et magna.
         </p>

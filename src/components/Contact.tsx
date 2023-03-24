@@ -9,11 +9,11 @@ const Contact = () => {
         className="w-[630px] lg:ml-[120px] mx-auto lg:mx-0"
       />
       <div className="px-5 lg:pl-8 bg-[#F1F1EF]">
-        <h1 className="font-normal text-[28px] lg:text-[42px]">Get in touch</h1>
-        <p className="pt-3 lg:pt-5  text-[13px] lg:text-sm">
+        <h1 className="font-normal text-[28px] lg:text-[42px] text-center md:text-center lg:text-start pt-5 lg:pt-0">Get in touch</h1>
+        <p className="pt-1 md:pt-2 lg:pt-5  text-[13px] lg:text-sm text-center md:text-center lg:text-start">
           Let’s discuss what’s next
         </p>
-        <form className="mt-[40px] max-w-[426px] mx-auto lg:mx-0">
+        <form className="mt-[40px] max-w-[426px] mx-auto lg:mx-0 mb-5 md:mb-8 lg:mb-0">
           <div className="lg:flex gap-[15px]">
             <input
               type="text"

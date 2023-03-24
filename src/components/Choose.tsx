@@ -5,11 +5,11 @@ const Choose = () => {
   return (
     <div
       style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(${Rectangle})` }}
-      className="h-[49.125rem] bg-no-repeat bg-cover pl-[7.5rem] pt-[11.938rem] text-white"
+      className="h-[33rem] md:h-[40rem] lg:h-[49.125rem] bg-no-repeat bg-cover pl-[7.5rem] pt-16 md:pt-24 lg:pt-[11.938rem] text-white"
     >
-      <h1 className="text-[2.625rem] w-[35%] mb-[3.75rem]">We are high performance team with hands-on mentality</h1>
+      <h1 className="text-3xl md:text-4xl lg:text-[2.625rem] w-[80%] md:w-[70%] lg:w-[50%] mb-10 md:mb-16 lg:mb-[3.75rem]">We are high performance team with hands-on mentality</h1>
       <h3 className="text-lg font-semibold mb-5">Why choose Raghav Buildtech?</h3>
-      <p className="text-sm w-[35%]">
+      <p className="text-sm w-[80%] md:w-[70%] w-[35%]">
         un by experienced industry leaders with credibility on faster
         turnaround, transparent design and highly reliable. Turnkey solution for
         construction of new projects, repairs to renovations of old buildings,
