@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,25 +19,25 @@ const Footer = () => {
         <div className="md:col-start-6 md:col-end-7 pt-5 md:pt-0">
           <h3 className="text-white font-normal text-lg">Navigation</h3>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/about-us">About us</a>
+            <Link to="/about">About us</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/services">Services</a>
+            <Link to="/services">Services</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/gallery">Gallery</a>
+            <Link to="/gallery">Gallery</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/contact">Contact us</a>
+            <Link to="/contact">Contact us</Link>
           </p>
         </div>
         <div className="md:col-start-9 md:col-end-12 pt-5 md:pt-0">
           <h3 className="text-white font-normal text-lg">Links</h3>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <a href="/privacy-and-policy">Privacy and Policy</a>
+            <Link to="/privacyPolicy">Privacy and Policy</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <a href="/">Terms &amp; Conditions</a>
