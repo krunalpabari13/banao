@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import GalleryDetails from "./components/GalleryDetails";
 
 function App() {
   useEffect(() => {
@@ -53,6 +54,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery/:galleryId" element={<GalleryDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
