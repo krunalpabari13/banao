@@ -11,7 +11,7 @@ const ImageGallery = () => {
   }
 
   return (
-    <div className='p-5 md:p-14 lg:p-[7.5rem]'>
+    <div className='px-5 md:px-10 lg:px-[7.5rem] pb-5 md:pb-10 lg:pb-[7.5rem] pt-5 md:pt-10 lg:pt-[4.75rem]'>
       <h1 className='font-normal text-3xl md:text-4xl lg:text-[3.125rem] mb-10 md:mb-16 lg:mb-32'>Explore our work</h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
         <div onClick={() => navigateImageDetails(1)} className='relative'>

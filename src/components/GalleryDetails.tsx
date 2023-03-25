@@ -69,17 +69,17 @@ const GalleryDetails = () => {
   };
 
   return (
-    <div className="px-[7.5rem] pb-[7.5rem] pt-[4.75rem]">
-      <h1 className="text-[3.125rem] mb-5">Name of Project</h1>
-      <div className="flex justify-between text-sm mb-32">
-        <div>
+    <div className="px-5 md:px-10 lg:px-[7.5rem] pb-5 md:pb-10 lg:pb-[7.5rem] pt-5 md:pt-10 lg:pt-[4.75rem]">
+      <h1 className="text-3xl md:text-4xl lg:text-[3.125rem] mb-5">Name of Project</h1>
+      <div className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32">
+        <div className="mb-5 md:mb-8 lg:mb-0">
           <p className="text-[#545454] mb-3">WIP • May 2022 - Jul 2022</p>
           <p>
             Address - Y - 222, VGN Kimberly Towers, 2nd Avenue, Anna Nagar,
             Chennai - 600040.
           </p>
         </div>
-        <p className="w-[50%] text-[#545454]">
+        <p className="w-[100%] lg:w-[50%] text-[#545454]">
           Our approach is unique: it aims to build a long-term relationship.
           Maintaining your home is essential to preserve its value and we work
           with you to assist you with your projects in order to make your dreams
@@ -91,7 +91,7 @@ const GalleryDetails = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-5 sm:ml-14 md:ml-0">
         {galleryId === "1" &&
           imagesOne.map((image: any, index): any => (
             <>
@@ -106,7 +106,7 @@ const GalleryDetails = () => {
           ))}
       </div>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-5 sm:ml-14 md:ml-0">
         {galleryId === "2" &&
           imagesTwo.map((image: any, index): any => (
             <img
