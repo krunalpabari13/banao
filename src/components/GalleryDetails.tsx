@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Img3 from "../assets/gallery/img3.jpeg";
 import Img4 from "../assets/gallery/img4.jpeg";
@@ -23,6 +23,7 @@ import Img22 from "../assets/gallery/img22.jpeg";
 import Img23 from "../assets/gallery/img23.jpeg";
 import Img24 from "../assets/gallery/img24.jpeg";
 import Img25 from "../assets/gallery/img25.jpeg";
+import GalleryImageModal from "./GalleryImageModal";
 
 const imagesOne = [
   { image: Img3 },
@@ -54,7 +55,18 @@ const imagesTwo = [
 ];
 
 const GalleryDetails = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [image, setImage] = useState("");
   const { galleryId }: any = useParams();
+
+  const handleOpen = (image: any) => {
+    setImage(image);
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <div className="px-[7.5rem] pb-[7.5rem] pt-[4.75rem]">
@@ -82,22 +94,40 @@ const GalleryDetails = () => {
       <div className="grid grid-cols-3 gap-10">
         {galleryId === "1" &&
           imagesOne.map((image: any, index): any => (
-            <img data-modal-target="defaultModal" data-modal-toggle="defaultModal" className="w-[33rem] h-[27rem]" key={index} src={image.image} alt="" />
+            <>
+              <img
+                onClick={() => handleOpen(image.image)}
+                className="w-[33rem] h-[27rem]"
+                key={index}
+                src={image.image}
+                alt=""
+              />
+            </>
           ))}
       </div>
 
       <div className="grid grid-cols-3 gap-10">
         {galleryId === "2" &&
           imagesTwo.map((image: any, index): any => (
-            <img className="w-[33rem] h-[27rem]" key={index} src={image.image} alt="" />
+            <img
+              onClick={() => handleOpen(image.image)}
+              className="w-[33rem] h-[27rem]"
+              key={index}
+              src={image.image}
+              alt=""
+            />
           ))}
       </div>
+
+      <GalleryImageModal image={image} isOpen={isOpen} onClose={handleClose} />
     </div>
   );
 };
 
 export default GalleryDetails;
 
-{/* <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+{
+  /* <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
   Toggle modal
-</button> */}
+</button> */
+}
