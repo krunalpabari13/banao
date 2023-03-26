@@ -17,17 +17,49 @@ const RecentWork = () => {
           projects and avoids cost overrun and time over run.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5 mx-[13.75rem]">
+      <div className="hidden lg:block">
+        <div className="px-5 max-w-5xl mx-auto grid grid-cols-12 grid-rows-3 md:grid-rows-2 gap-[10px]  ">
+          <div className="row-start-1 row-end-2 col-start-1 col-end-8">
+            <img src={Rectangle1} alt="IMG1" />
+          </div>
+          <div className="row-start-1 row-end-2 col-start-8 col-end-13   ">
+            <img src={Rectangle2} alt="IMG2" />
+          </div>
+          <div className="md:row-start-2 md:row-end-3 col-start-1 col-end-5 ">
+            <img src={Rectangle3} alt="IMG3" />
+          </div>
+          <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9"></div>
+          <div className="h-full md:row-start-2 md:row-end-3 md:col-start-9  md:col-end-13 ">
+            <img src={Rectangle4} alt="IMG4" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="lg:hidden grid grid-cols-12 grid-flow-row-dense px-5 gap-[10px] pb-[80px] aos-init aos-animate"
+        data-aos="fade-down"
+      >
         <img
-          width="100%"
-          className="col-span-2"
-          src={Rectangle1}
-          alt="recent work"
+          src={Rectangle2}
+          alt="IMG1"
+          className="w-full col-start-1 col-end-7"
         />
-        <img width="100%" src={Rectangle2} alt="recent work" />
-        <img width="100%" src={Rectangle3} alt="recent work" />
-        <img width="100%" src={RedBox} alt="recent work" />
-        <img width="100%" src={Rectangle4} alt="recent work" />
+        <img
+          src={Rectangle2}
+          alt="IMG1"
+          className="w-full col-start-7 col-end-13"
+        />
+        <p className=" bg-[#CD4055] w-full h-[40px] col-start-1 col-end-13"></p>
+        <img
+          src={Rectangle3}
+          alt="IMG1"
+          className="w-full col-start-1 col-end-7"
+        />
+        <img
+          src={Rectangle4}
+          alt="IMG1"
+          className="w-full col-start-7 col-end-13"
+        />
       </div>
     </div>
   );
