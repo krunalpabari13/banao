@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
           </ul>
         </div>
         <div className="md:pt-[90px] mb-10 sm:mb-10 md:mb-0">
-          <h1 className="md:text-[42px] font-normal">
+          <h1 className="md:text-[42px] font-normal mb-2 md:mb-3">
             Information Collection, Use, and Sharing
           </h1>
           <div className="text-[13px] md:text-sm text-[#545454] font-normal">
@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
         <div className="md:pt-[90px] mb-10 sm:mb-10 md:mb-0">
-          <h1 className="md:text-[42px] font-normal">Cookies</h1>
+          <h1 className="md:text-[42px] font-normal mb-2 md:mb-3">Cookies</h1>
           <p className="text-[13px] md:text-sm text-[#545454] font-normal">
             We use “cookies” on this site. A cookie is a piece of data stored on
             a site visitor’s hard drive to help us improve your access to our
@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
           </p>
         </div>
         <div className="md:pt-[90px]">
-          <h1 className="md:text-[42px] font-normal">Links</h1>
+          <h1 className="md:text-[42px] font-normal mb-2 md:mb-3">Links</h1>
           <p className="text-[13px] md:text-sm text-[#545454] font-normal">
             This web site contains links to other sites. Please be aware that we
             are not responsible for the content or privacy practices of such

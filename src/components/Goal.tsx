@@ -41,7 +41,7 @@ const Goal = () => {
             className="rounded-full w-[80px] h-[80px] mr-5"
           />
           <div>
-            <h1 className="font-normal text-base lg:text-[20px]">
+            <h1 className="font-normal text-base lg:text-[20px] mb-1 md:mb-1.5">
               Captain N. Raghavan
             </h1>
             <p className="text-[13px] lg:text-base">Founder &amp; CEO</p>
