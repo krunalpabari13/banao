@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
         </ul>
         <button className="px-5 text-[10px] lg:text-sm text-white uppercase bg-[#CD4055] h-[56px] md:h-[65px]">
-          CALL: +91 87545-02338
+          <a href="tel:+918754502338">CALL: +91 87545-02338</a>
         </button>
       </div>
 
