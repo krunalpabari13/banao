@@ -11,8 +11,12 @@ const ContactDetails = () => {
           <img src={Phone} alt="phone" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Phone</p>
         </div>
-        <p className="pl-8 text-sm font-normal">+91 994-134-4529</p>
-        <p className="pl-8 text-sm font-normal">+91 994-134-4529</p>
+        <p className="pl-8 text-sm font-normal">
+          <a href="tel:+918754502338">+91 875-450-2338</a>
+        </p>
+        <p className="pl-8 text-sm font-normal">
+          <a href="tel:+918754502338">+91 875-450-2338</a>
+        </p>
       </div>
       <div className="w-[280px] mt-5 lg:mt-0">
         <div className="flex items-center pb-3">
@@ -20,7 +24,8 @@ const ContactDetails = () => {
           <p className="font-semibold text-[20px] text-[#545454]">Office</p>
         </div>
         <p className="pl-8 text-sm font-normal">
-          Address 1 - Lorem ipsum dolor sit amet, consectetur adipiscing aliqua.
+          #173, Ragini, 2A Main Road, Block 7, Nagarabhavi 2nd Stage, Bangalore
+          - 560072
         </p>
       </div>
       <div className="w-[280px] mt-5 lg:mt-0">
@@ -28,8 +33,12 @@ const ContactDetails = () => {
           <img src={Mail} alt="mail" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Chat</p>
         </div>
-        <p className="pl-8 text-sm font-normal">hi@contactmenow.com</p>
-        <p className="pl-8 text-sm font-normal">hi@contactmelater.com</p>
+        <p className="pl-8 text-sm font-normal">
+          <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
+        </p>
+        <p className="pl-8 text-sm font-normal">
+          <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
+        </p>
       </div>
     </div>
   );

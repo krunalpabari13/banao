@@ -12,9 +12,11 @@ const Footer = () => {
             eiusmod tempor incididunt ut labore et dolore
           </p>
           <p className="text-[#DCDCDC] font-medium text-sm pt-6">
-            Mobile number
+            <a href="tel:+918754502338">Mobile number: +91 87545-02338</a>
           </p>
-          <p className="text-[#DCDCDC] font-medium text-sm pt-3">E-mail ID</p>
+          <p className="text-[#DCDCDC] font-medium text-sm pt-3">
+            <a href="mailto:ragainn@gmail.com">E-mail ID: ragainn@gmail.com</a>
+          </p>
         </div>
         <div className="md:col-start-6 md:col-end-7 pt-5 md:pt-0">
           <h3 className="text-white font-normal text-lg">Navigation</h3>
