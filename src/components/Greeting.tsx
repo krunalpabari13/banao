@@ -13,7 +13,7 @@ const Greeting = () => {
         <h1 className="text-3xl md:text-4xl lg:text-[2.625rem] mb-5">
           Welcome to
           <br />
-          Raghav Buildtech
+          Raghav BuildTech
         </h1>
         <p className="text-[#404040] text-sm mb-[4.188rem] w-[45%]">
           Raghav BuildTech aspires to meet{" "}

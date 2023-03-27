@@ -9,11 +9,11 @@ const BusinessSummary = () => {
         <p className='text-sm text-[#545454] mb-5 md:mb-10 lg:mb-[3.75rem] w-[55%]'>Currently serving Bangalore geography. Expanding shortly throughout Karnataka & Tamil Nadu</p>
         <div className='grid grid-cols-2 gap-10 md:gap-20 lg:gap-24 mr-32'>
           <div>
-            <h1 className='text-[2.625rem] border-b border-black'>20k+</h1>
+            <h1 className='text-[2.625rem] border-b border-black'>20+</h1>
             <p className='mt-2'>Projects completed</p>
           </div>
           <div>
-          <h1 className='text-[2.625rem] border-b border-black'>10k+</h1>
+          <h1 className='text-[2.625rem] border-b border-black'>10+</h1>
             <p className='mt-2'>Client served</p>
           </div>
           <div>

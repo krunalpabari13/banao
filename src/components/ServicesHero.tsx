@@ -23,7 +23,7 @@ const ServicesHero = () => {
       />
       <div className="lg:flex justify-between px-5 lg:pl-[120px] lg:pr-[88px] py-[40px] lg:py-[76px] ">
         <h1 className="font-normal text-[34px] lg:text-[42px] max-w-[506px]">
-          There are no ordinary projects, only extraordinary situations.
+          There are no <br /> ordinary projects, only <br /> extraordinary situations.
         </h1>
         <div className="max-w-[626px]">
           <p className="text-[#545454] font-normal text-[13px] lg:text-base">

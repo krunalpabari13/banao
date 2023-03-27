@@ -11,7 +11,7 @@ const TileService = () => {
   return (
     <div className="grid grid-cols-12">
       <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0">
-        <h1 className="font-normal text-[28px] lg:text-[42px]">Tile Setters</h1>
+        <h1 className="font-normal text-[28px] lg:text-[42px]">Tile Setters.</h1>
         <p className="text-[13px] lg:text-sm font-normal pt-3 lg:pt-5 text-[#545454]">
           Experienced professional tile setters who are competent to handle
           marbles, granite, vitrified tiles and glass panes
@@ -33,7 +33,7 @@ const TileService = () => {
             <img src={Renovation} alt="renovation" className="mr-2" />
             <p className="font-normal text-[13px] lg:text-sm">Residential</p>
           </li>
-          <li className="flex items-center pb-3 lg:pb-5">
+          <li className="flex items-center pb-5 lg:pb-16">
             <img src={Machin} alt="machine" className="mr-2" />
             <p className="font-normal text-[13px] lg:text-sm">Commercial</p>
           </li>

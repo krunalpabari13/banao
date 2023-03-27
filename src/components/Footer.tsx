@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-[#444358] w-full px-5 py-10 md:px-[120px] md:py-[60px] mt-5 md:mt-0">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-12 grid-flow-row-dense pb-[72px] border-b border-white">
         <div className="md:col-start-1 md:col-end-4">
-          <h3 className="text-white font-normal text-lg">Raghav BuidTech</h3>
+          <h3 className="text-white font-normal text-lg">Raghav Builtech</h3>
           <p className="text-[#AFAFAF] font-normal text-sm pt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore

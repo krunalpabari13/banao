@@ -1,10 +1,14 @@
-import React from 'react'
-import ImageGallery from '../components/ImageGallery'
+import React from "react";
+import Contact from "../components/Contact";
+import ImageGallery from "../components/ImageGallery";
 
 const Gallery = () => {
   return (
-    <ImageGallery />
-  )
-}
+    <>
+      <ImageGallery />
+      <Contact />
+    </>
+  );
+};
 
-export default Gallery
+export default Gallery;
