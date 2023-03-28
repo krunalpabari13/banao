@@ -41,9 +41,9 @@ const Footer = () => {
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <Link to="/privacyPolicy">Privacy and Policy</Link>
           </p>
-          <p className="text-[#AFAFAF] font-normal text-sm pt-4">
+          {/* <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <a href="/">Terms &amp; Conditions</a>
-          </p>
+          </p> */}
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <a
               href="https://www.linkedin.com/"
