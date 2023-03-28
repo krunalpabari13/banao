@@ -4,10 +4,12 @@ import Utility from "../assets/home/greeting/utility.svg";
 import Quality from "../assets/home/greeting/quality.svg";
 import Transparency from "../assets/home/greeting/transparency.svg";
 import Adhering from "../assets/home/greeting/adhering.svg";
+import OurService from "../assets/home/OurService.svg";
 
 const Greeting = () => {
   return (
-    <div className="bg-[#F1F1EF] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center h-[60rem] sm:h-[60rem] md:h-[65rem] lg:h-[39.375rem] pb-10 sm:pb-10 md:pb-12 lg:pb-0">
+    <>
+    <div className="bg-[#F1F1EF] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:hidden items-center h-[60rem] sm:h-[60rem] md:h-[65rem] lg:h-[39.375rem] pb-10 sm:pb-10 md:pb-12 lg:pb-0">
       <img className="mb-3 sm:mb-4 md:mb-10" src={Sec} alt="section" />
       <div className="">
         <h1 className="text-3xl md:text-4xl lg:text-[2.625rem] mb-5 ml-16 md:ml-24 lg:ml-0">
@@ -41,10 +43,9 @@ const Greeting = () => {
         </div>
       </div>
     </div>
+    <img width="100%" className="hidden lg:block" src={OurService} alt="our service" />
+    </>
   );
 };
 
 export default Greeting;
-
-// h-[60rem] sm:h-[60rem] md:h-[65rem] lg:h-[39.375rem]
-// items-center 

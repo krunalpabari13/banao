@@ -14,7 +14,7 @@ const GalleryImageModal = ({ image, isOpen, onClose }: any) => {
       } fixed z-10 inset-0 overflow-y-auto`}
     >
       <div className="flex items-center justify-center min-h-screen">
-        <div className="bg-gray-500 bg-opacity-75 absolute inset-0"></div>
+        <div className="bg-gray-800 bg-opacity-60 absolute inset-0"></div>
         <div className="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all">
           <button
           onClick={handleClose}
