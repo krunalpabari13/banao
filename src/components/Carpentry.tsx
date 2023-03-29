@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Carpentry = () => {
   return (
     <div className="grid grid-cols-12">
-      <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0">
+      <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0" data-aos="fade-down">
         <h1 className="font-normal text-[28px] lg:text-[42px]">Carpentry.</h1>
         <p className="text-[13px] lg:text-sm font-normal pt-3 lg:pt-5 text-[#545454]">
           Trustworthy qualified efficient master craftsmen who knows how to
@@ -46,7 +46,8 @@ const Carpentry = () => {
       <img
         src={CarpentryImg}
         alt="carpentry"
-        className="w-full col-start-1 lg:col-start-7 col-end-13 row-start-1 "
+        className="w-full col-start-1 lg:col-start-7 col-end-13 row-start-1"
+        data-aos="fade-left"
       />
     </div>
   );

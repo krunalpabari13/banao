@@ -5,7 +5,7 @@ import LgServices from "../assets/services/lgServices.svg";
 const ServicesHero = () => {
   return (
     <div>
-      <div className="lg:flex justify-between px-5 lg:pl-[120px] lg:pr-[88px] py-[40px] lg:py-[76px] ">
+      <div className="lg:flex justify-between px-5 lg:pl-[120px] lg:pr-[88px] py-[40px] lg:py-[76px]" data-aos="fade-up">
         <h1 className="font-normal text-[34px] lg:text-[50px] max-w-[325px]">
           Our Services!
         </h1>
@@ -15,17 +15,18 @@ const ServicesHero = () => {
           with you to make your dreams into reality.
         </p>
       </div>
-      <img src={SmServices} alt="smServices" className="w-full lg:hidden" />
+      <img src={SmServices} alt="smServices" className="w-full lg:hidden" data-aos="fade-up" />
       <img
         src={LgServices}
         alt="lgServices"
         className="w-full hidden lg:block"
+        data-aos="fade-up"
       />
       <div className="lg:flex justify-between px-5 lg:pl-[120px] lg:pr-[88px] py-[40px] lg:py-[76px] ">
-        <h1 className="font-normal text-[34px] lg:text-[42px] max-w-[506px]">
+        <h1 className="font-normal text-[34px] lg:text-[42px] max-w-[506px]" data-aos="fade-right">
           There are no <br /> ordinary projects, only <br /> extraordinary situations.
         </h1>
-        <div className="max-w-[626px]">
+        <div className="max-w-[626px]" data-aos="fade-left">
           <p className="text-[#545454] font-normal text-[13px] lg:text-base">
             In addition to undertaking construction of new building /
             residential units and setting up of advanced Radiology and pathology

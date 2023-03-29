@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const PlumbingService = () => {
   return (
     <div className="grid grid-cols-12">
-      <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0">
+      <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0" data-aos="fade-down">
         <h1 className="font-normal text-[28px] lg:text-[42px]">
           Plumbing Service.
         </h1>
@@ -68,7 +68,8 @@ const PlumbingService = () => {
       <img
         src={PipeWork}
         alt="plumbing"
-        className="w-full col-start-1 lg:col-start-7 col-end-13 row-start-1 "
+        className="w-full col-start-1 lg:col-start-7 col-end-13 row-start-1"
+        data-aos="fade-left"
       />
     </div>
   );
