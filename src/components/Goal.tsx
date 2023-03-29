@@ -19,18 +19,8 @@ const Goal = () => {
           growing needs of Bengaluru residential units initially and slowly
           spread the services across Karnataka and Tamilnadu.
         </p>
-        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-1 lg:row-end-4 text-[13px] lg:text-xl font-normal text-black mt-10 lg:mt-0 self-end">
-          While there are many organized builders and contractors available to
-          undertake construction of new buildings and creating superior
-          interiors, there are literally “NO” organized players in the market
-          who gives turnkey solution in the space of repairs and renovation of
-          old residential houses – flats – Apartment complexes / commercial
-          buildings. Raghav BuildTech aspires to fill up this space by proving
-          that they are organized, efficient, tech enabled, quality and cost
-          conscious, transparent and reliable. Old residential houses – flats –
-          Apartment complexes / commercial buildings. Raghav BuildTech aspires
-          to fill up this space by proving that they are organized, efficient,
-          tech enabled, quality and cost conscious, transparent and reliable.
+        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-2 text-[13px] lg:text-[14px] font-normal text-black mt-10 lg:mt-0 self-end">
+        While there are many organised builders and contractors available to undertake construction of new buildings and creating superior interiors, there are literally “NO” organised players in the market who gives turnkey solution in the space of repairs and renovation of old residential houses – flats – Apartment complexes / commercial buildings. Raghav BuildTech aspires to fill up this space by proving that they are organized, efficient, tech enabled, quality and cost conscious, transparent and reliable.
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[5.688rem]" data-aos="fade-down">
@@ -55,16 +45,8 @@ const Goal = () => {
           Buildtech in the Construction, Project Management and Maintenance
           space through this tech enabled platform.
         </p>
-        <p className="lg:col-start-7 lg:col-end-13 lg:row-start-1 lg:row-end-4 md:row-start-2 text-[13px] lg:text-xl font-normal text-black mt-10 lg:mt-0 self-end">
-          As a business leader with enormous experience in Projects and
-          Management, Healthcare Service delivery expertise, meticulous
-          maintenance of advanced medical devices, P&amp;L management,
-          Operations, sales, marketing &amp; business development skills and
-          innovative digital healthcare delivery insights, he has demonstrated
-          himself as a reliable leader and delivered strong business growth.
-          maintenance of advanced medical devices, P&amp;L management,
-          Operations, sales, marketing &amp; he has demonstrated himself as a
-          reliable leader and delivered strong business growth.
+        <p className="lg:col-start-7 lg:col-end-13 md:row-start-2 text-[13px] lg:text-[14px] font-normal text-black mt-10 lg:mt-0 self-end">
+        As a business leader with enormous experience in Projects and Management, Healthcare Service delivery expertise, meticulous maintenance of advanced medical devices, P&L management, Operations, sales, marketing & business development skills and innovative digital healthcare delivery insights, he has demonstrated himself as a reliable leader and delivered strong business growth.
         </p>
       </div>
       <img src={Line} className="mx-auto w-full mt-[60px]" />
@@ -86,7 +68,7 @@ const Goal = () => {
           <p className="text-sm text-[rgba(84,84,84,1)] pt-5">
             To become the house hold name for “Repairs and Renovations” and want
             to be recognised as the most cost effective - user friendly -
-            transparent - efficient Repairs &amp; Renovation company
+            transparent - efficient Repairs &amp; Renovation requirements.
           </p>
         </div>
         <div className="max-w-[264px] mt-10 md:mt-0" data-aos="fade-left">

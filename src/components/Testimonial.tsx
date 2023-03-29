@@ -40,7 +40,7 @@ const Testimonial = () => {
         alt="gallery image"
       />
 
-      <div className="absolute bottom-[2rem] md:bottom-[5rem] lg:bottom-[8rem] top-[8rem] md:top-[12rem] lg:top-[8rem] left-[3rem] md:left-[5rem] lg:left-[10rem] xl:left-[12rem] 2xl:left-[14.063rem] pt-[4rem] px-9 bg-white text-black w-[85%] md:w-[60%] lg:w-[45%] xl:w-[45%] 2xl:w-[30%]" data-aos="fade-right">
+      <div className="absolute bottom-[2rem] md:bottom-[5rem] lg:bottom-[8rem] top-[8rem] md:top-[12rem] lg:top-[8rem] left-[3rem] md:left-[5rem] lg:left-[10rem] xl:left-[12rem] 2xl:left-[14.063rem] pt-[4rem] px-9 bg-white text-black w-[85%] md:w-[60%] lg:w-[45%] xl:w-[45%] 2xl:w-[30%] overflow-x-hidden" data-aos="fade-right">
         <p className="">
           I am delighted to see my refurbished home, transformed in a
           spectacular manner. The way the tiles have been laid, kitchen has been

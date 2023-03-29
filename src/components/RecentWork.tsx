@@ -17,7 +17,7 @@ const RecentWork = () => {
           projects and avoids cost overrun and time over run.
         </p>
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden lg:block overflow-x-hidden">
         <div className="px-5 max-w-5xl mx-auto grid grid-cols-12 grid-rows-3 md:grid-rows-2 gap-[10px]  ">
           <div className="row-start-1 row-end-2 col-start-1 col-end-8">
             <img src={Rectangle1} alt="IMG1" data-aos="fade-right" />

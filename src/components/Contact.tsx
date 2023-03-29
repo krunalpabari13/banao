@@ -50,7 +50,7 @@ const Contact = () => {
           <textarea
             name="text"
             id="text"
-            placeholder="Message us"
+            placeholder="Message"
             className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px] resize-none h-[109px]"
           ></textarea>
           <button className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]">

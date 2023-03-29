@@ -48,7 +48,7 @@ const Services = () => {
         </div>
       </div>
       <div>
-        <img width="100%" src={Group} alt="services" data-aos="fade-left" />
+        <img width="100%" src={Group} alt="services" className='overflow-x-hidden' data-aos="fade-left" />
       </div>
     </div>
   )

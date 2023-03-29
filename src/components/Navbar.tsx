@@ -18,8 +18,8 @@ const Navbar = () => {
         <img src={MenuOpen} alt="menuOpen" />
       </button>
       <Link to="/">
-        <img src={SmLogo} alt="Logo" className="lg:hidden " />
-        <img src={Logo} alt="Logo" className="hidden lg:block" />
+        <img src={SmLogo} alt="Logo" className="lg:hidden " data-aos="zoom-in-right" />
+        <img src={Logo} alt="Logo" className="hidden lg:block" data-aos="zoom-in" />
       </Link>
       <div className="flex">
         <ul className="hidden lg:flex items-center me-auto ">
