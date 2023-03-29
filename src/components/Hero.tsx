@@ -35,7 +35,7 @@ const Hero = () => {
           exceptional quality while staying on schedule and under budget.
         </p>
       </div>
-      <div className="flex h-[20rem] md:h-[25rem] lg:h-[30.938rem]">
+      <div className="flex h-[20rem] md:h-[25rem] lg:h-[30.938rem]" data-aos="fade-up">
         {slides.map((slide, index) => (
           <img
             width="100%"

@@ -43,7 +43,7 @@ const Greeting = () => {
         </div>
       </div>
     </div>
-    <img width="100%" className="hidden lg:block" src={OurService} alt="our service" />
+    <img width="100%" className="hidden lg:block" src={OurService} alt="our service" data-aos="fade-down" />
     </>
   );
 };

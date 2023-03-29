@@ -5,7 +5,7 @@ const Choose = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-[rgba(231,217,209,0.45)] order-last lg:order-first">
       <div
-        className="md:pl-[120px] md:pr-[53px] pt-10 md:pt-[100px] px-10 pb-10 aos-init aos-animate"
+        className="md:pl-[120px] md:pr-[53px] pt-10 md:pt-[100px] px-10 pb-10"
         data-aos="fade-down"
       >
         <h1 className="font-normal text-[28px] md:text-[42px] text-[rgba(0,0,0,1)] pb-[40px]">
@@ -42,7 +42,7 @@ const Choose = () => {
         </ul>
       </div>
       <div className="">
-        <img src={Power} alt="Power" className="w-full" />
+        <img src={Power} alt="Power" className="w-full" data-aos="fade-left" />
       </div>
     </div>
   );

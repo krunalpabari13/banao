@@ -8,7 +8,7 @@ import RedBox from "../assets/home/recentWork/RedBox.svg";
 const RecentWork = () => {
   return (
     <div className="my-10 md:my-20 lg:my-32">
-      <div className="text-center">
+      <div className="text-center" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl lg:text-[2.625rem] mb-5">
           Check our recent work
         </h2>
@@ -20,17 +20,17 @@ const RecentWork = () => {
       <div className="hidden lg:block">
         <div className="px-5 max-w-5xl mx-auto grid grid-cols-12 grid-rows-3 md:grid-rows-2 gap-[10px]  ">
           <div className="row-start-1 row-end-2 col-start-1 col-end-8">
-            <img src={Rectangle1} alt="IMG1" />
+            <img src={Rectangle1} alt="IMG1" data-aos="fade-right" />
           </div>
           <div className="row-start-1 row-end-2 col-start-8 col-end-13   ">
-            <img src={Rectangle2} alt="IMG2" />
+            <img src={Rectangle2} alt="IMG2" data-aos="fade-left" />
           </div>
           <div className="md:row-start-2 md:row-end-3 col-start-1 col-end-5 ">
-            <img src={Rectangle3} alt="IMG3" />
+            <img src={Rectangle3} alt="IMG3" data-aos="fade-right" />
           </div>
-          <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9"></div>
+          <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up"></div>
           <div className="h-full md:row-start-2 md:row-end-3 md:col-start-9  md:col-end-13 ">
-            <img src={Rectangle4} alt="IMG4" />
+            <img src={Rectangle4} alt="IMG4" data-aos="fade-left" />
           </div>
         </div>
       </div>
@@ -43,22 +43,26 @@ const RecentWork = () => {
           src={Rectangle2}
           alt="IMG1"
           className="w-full col-start-1 col-end-7"
+          data-aos="fade-right"
         />
         <img
           src={Rectangle2}
           alt="IMG1"
           className="w-full col-start-7 col-end-13"
+          data-aos="fade-left"
         />
         <p className=" bg-[#CD4055] w-full h-[40px] col-start-1 col-end-13"></p>
         <img
           src={Rectangle3}
           alt="IMG1"
           className="w-full col-start-1 col-end-7"
+          data-aos="fade-right"
         />
         <img
           src={Rectangle4}
           alt="IMG1"
           className="w-full col-start-7 col-end-13"
+          data-aos="fade-left"
         />
       </div>
     </div>
