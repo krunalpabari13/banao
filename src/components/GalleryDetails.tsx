@@ -70,8 +70,16 @@ const GalleryDetails = () => {
 
   return (
     <div className="px-5 md:px-10 lg:px-[7.5rem] pb-5 md:pb-10 lg:pb-[7.5rem] pt-5 md:pt-10 lg:pt-[4.75rem]">
-      <h1 className="text-3xl md:text-4xl lg:text-[3.125rem] mb-5">Name of Project</h1>
-      <div className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32">
+      <h1
+        className="text-3xl md:text-4xl lg:text-[3.125rem] mb-5"
+        data-aos="fade-up"
+      >
+        Name of Project
+      </h1>
+      <div
+        className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32"
+        data-aos="fade-up"
+      >
         <div className="mb-5 md:mb-8 lg:mb-0">
           <p className="text-[#545454] mb-3">WIP • May 2022 - Jul 2022</p>
           <p>
@@ -101,6 +109,7 @@ const GalleryDetails = () => {
                 key={index}
                 src={image.image}
                 alt=""
+                data-aos="zoom-in"
               />
             </>
           ))}
@@ -115,6 +124,7 @@ const GalleryDetails = () => {
               key={index}
               src={image.image}
               alt=""
+              data-aos="zoom-in"
             />
           ))}
       </div>
@@ -125,9 +135,3 @@ const GalleryDetails = () => {
 };
 
 export default GalleryDetails;
-
-{
-  /* <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
-  Toggle modal
-</button> */
-}
