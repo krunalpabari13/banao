@@ -5,7 +5,7 @@ import Line from "../assets/about/line.svg";
 const Goal = () => {
   return (
     <div className="bg-[#F1F1EF] p-5 lg:p-[120px]">
-      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense ">
+      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense" data-aos="fade-down">
         <h1 className="max-w-[311px] text-[28px] lg:text-[42px] lg:col-start-1 lg:col-end-6">
           What we want to achieve?
         </h1>
@@ -33,7 +33,7 @@ const Goal = () => {
           tech enabled, quality and cost conscious, transparent and reliable.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[5.688rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[5.688rem]" data-aos="fade-down">
         <div className="flex items-center lg:col-start-1 lg:col-end-6">
           <img
             src={Avatar}
@@ -69,7 +69,7 @@ const Goal = () => {
       </div>
       <img src={Line} className="mx-auto w-full mt-[60px]" />
       <div className="md:flex items-start justify-between md:mt-[60px]">
-        <div className="max-w-[290px]">
+        <div className="max-w-[290px]" data-aos="fade-right">
           <h1 className="text-[#CD4055] font-medium md:text-[18px]">
             Our Focus
           </h1>
@@ -79,7 +79,7 @@ const Goal = () => {
             effective solution.
           </p>
         </div>
-        <div className="max-w-[290px] mt-10 md:mt-0">
+        <div className="max-w-[290px] mt-10 md:mt-0" data-aos="fade-up">
           <h1 className="text-[#CD4055] font-medium md:text-[18px]">
             Our Vision
           </h1>
@@ -89,7 +89,7 @@ const Goal = () => {
             transparent - efficient Repairs &amp; Renovation company
           </p>
         </div>
-        <div className="max-w-[264px] mt-10 md:mt-0">
+        <div className="max-w-[264px] mt-10 md:mt-0" data-aos="fade-left">
           <h1 className="text-[#CD4055] font-medium md:text-[18px]">
             Our Mission
           </h1>

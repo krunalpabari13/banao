@@ -5,7 +5,7 @@ import AboutHeroSmImg from "../assets/about/smImg1.svg";
 const AboutHero = () => {
   return (
     <>
-      <div className="mx-5 lg:mx-0 lg:pl-[120px] grid  grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[37px] mb-[40px] lg:mt-[76px] lg:mb-[65px]">
+      <div className="mx-5 lg:mx-0 lg:pl-[120px] grid  grid-cols-1 lg:grid-cols-12 grid-flow-row-dense mt-[37px] mb-[40px] lg:mt-[76px] lg:mb-[65px]" data-aos="fade-up">
         <h1 className="lg:col-start-1 lg:col-end-6 text-[34px] lg:text-[50px]  lg:leading-[75px]">
           The one stop shop for your construction project
         </h1>
@@ -16,8 +16,8 @@ const AboutHero = () => {
           timely completion.
         </p>
       </div>
-      <img src={AboutHeroSmImg} className="w-full  lg:hidden" />
-      <img src={AboutHeroImg} className="w-full hidden lg:block" />
+      <img src={AboutHeroSmImg} className="w-full  lg:hidden" data-aos="fade-up" />
+      <img src={AboutHeroImg} className="w-full hidden lg:block" data-aos="fade-up" />
     </>
   );
 };
