@@ -29,7 +29,7 @@ const ImageGallery = () => {
 
   return (
     <div className="px-5 md:px-10 lg:px-[7.5rem] pb-5 md:pb-10 lg:pb-[7.5rem] pt-5 md:pt-10 lg:pt-[4.75rem]">
-      <h1 className="font-normal text-3xl md:text-4xl lg:text-[3.125rem] mb-10 md:mb-16 lg:mb-32">
+      <h1 className="font-normal text-3xl md:text-4xl lg:text-[3.125rem] mb-10 md:mb-16 lg:mb-32" data-aos="fade-up">
         Explore our work
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -39,7 +39,7 @@ const ImageGallery = () => {
           onMouseOut={hideDetails}
           className="relative"
         >
-          <img width="100%" src={GalleryImag1} alt="gallery image" />
+          <img width="100%" src={GalleryImag1} alt="gallery image" data-aos="fade-right" />
           <div
             className={`absolute bottom-0 left-0 right-0 p-3 md:p-6 bg-[#000259] duration-500 ${
               show ? "opacity-60" : "opacity-0"
@@ -70,6 +70,7 @@ const ImageGallery = () => {
             width="100%"
             src={GalleryImag2}
             alt="gallery image"
+            data-aos="fade-left"
           />
           <div
             className={`absolute bottom-0 left-0 right-0 p-3 md:p-6 bg-[#000259] duration-500 ${
