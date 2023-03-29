@@ -6,7 +6,7 @@ import Mail from "../assets/contact/mail.svg";
 const ContactDetails = () => {
   return (
     <div className="w-full lg:flex justify-between mx-auto px-5 lg:px-[150px] py-5">
-      <div className="w-[280px] ">
+      <div className="w-[280px]" data-aos="flip-right">
         <div className="flex items-center pb-3">
           <img src={Phone} alt="phone" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Phone</p>
@@ -18,7 +18,7 @@ const ContactDetails = () => {
           <a href="tel:+918754502338">+91 875-450-2338</a>
         </p>
       </div>
-      <div className="w-[280px] mt-5 lg:mt-0">
+      <div className="w-[280px] mt-5 lg:mt-0" data-aos="zoom-in">
         <div className="flex items-center pb-3">
           <img src={Location} alt="location" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Office</p>
@@ -28,7 +28,7 @@ const ContactDetails = () => {
           - 560072
         </p>
       </div>
-      <div className="w-[280px] mt-5 lg:mt-0">
+      <div className="w-[280px] mt-5 lg:mt-0" data-aos="flip-left">
         <div className="flex items-center pb-3">
           <img src={Mail} alt="mail" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Chat</p>

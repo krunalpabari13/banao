@@ -2,8 +2,8 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="w-full bg-[#F1F1EF] px-5 md:pl-[120px] py-5 md:py-[80px] ">
-      <div className="max-w-[925px]">
+    <div className="w-full bg-[#F1F1EF] px-5 md:pl-[120px] py-5 md:py-[80px]">
+      <div className="max-w-[925px]" data-aos="fade-up">
         <div className="text-[13px] md:text-sm text-[#545454] font-normal mb-10 sm:mb-10 md:mb-0">
           <p>Effective Date: 2016-07-25</p>
           <p>
