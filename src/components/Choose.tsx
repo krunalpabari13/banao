@@ -3,16 +3,9 @@ import Power from "../assets/home/Power.svg";
 
 const Choose = () => {
   return (
-    <div className="md:grid grid-cols-1 md:grid-cols-12 grid-flow-row-dense">
-      <div className="md:col-start-7 md:col-end-13">
-        <img
-          src={Power}
-          alt="Power"
-          className="w-full"
-        />
-      </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 bg-[rgba(231,217,209,0.45)] order-last lg:order-first">
       <div
-        className="md:col-start-1 md:col-end-7 bg-[rgba(231,217,209,0.45)] md:pl-[120px] md:pr-[53px] pt-10 md:pt-[150px] px-10 aos-init aos-animate"
+        className="md:pl-[120px] md:pr-[53px] pt-10 md:pt-[100px] px-10 pb-10 aos-init aos-animate"
         data-aos="fade-down"
       >
         <h1 className="font-normal text-[28px] md:text-[42px] text-[rgba(0,0,0,1)] pb-[40px]">
@@ -47,6 +40,9 @@ const Choose = () => {
             conservation.
           </li>
         </ul>
+      </div>
+      <div className="">
+        <img src={Power} alt="Power" className="w-full" />
       </div>
     </div>
   );
