@@ -42,7 +42,7 @@ const Choose = () => {
         </ul>
       </div>
       <div className="">
-        <img src={Power} alt="Power" className="w-full overflow-x-hidden" data-aos="fade-left" />
+        <img src={Power} alt="Power" className="w-full" data-aos="fade-left" />
       </div>
     </div>
   );
