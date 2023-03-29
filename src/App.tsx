@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./helper/ScrollToTop";
 // import { ChildRoute, ScrollToTop } from "./components/exports";
 // import { routeNames } from "./pages/routes";
 
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Navbar />
       <Routes>
         {/* <Route path="" element={<ChildRoute />}>
