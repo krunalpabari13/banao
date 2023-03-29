@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
-      <div className='pl-5 md:pl-14 lg:pl-[7.5rem] pt-5 md:pt-10 lg:pt-[6.5rem] pr-24 order-last lg:order-first mb-10 lg:mb-0'>
+      <div className='pl-5 md:pl-14 lg:pl-[7.5rem] pt-5 md:pt-10 lg:pt-[6.5rem] pr-24 order-last lg:order-first mb-10 lg:mb-0' data-aos="fade-down">
         <h2 className='text-3xl md:text-4xl lg:text-[2.625rem] mb-[2.563rem] text-center md:text-start'>Our Services</h2>
         <Link to="/services" className='flex items-center justify-end mb-5'>
           <p className='text-sm'>View more</p>

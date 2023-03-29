@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <section>
-      <div className="px-5 md:px-8 lg:px-[7.5rem] my-5 md:my-8 lg:my-[4.75rem]">
+      <div className="px-5 md:px-8 lg:px-[7.5rem] my-5 md:my-8 lg:my-[4.75rem]" data-aos="fade-up">
         <h1 className="font-normal text-3xl md:text-4xl lg:text-[3.125rem] mb:3 md:mb-5 lg:mb-9">
           Turnkey Solution For Every Project
         </h1>
