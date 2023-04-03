@@ -15,7 +15,6 @@ const PrivacyPolicy = () => {
           <ul className="list-disc mx-5">
             <li>What information we collect;</li>
             <li>With whom it is shared;</li>
-            <li>With whom it is shared;</li>
             <li>How it can be corrected;</li>
             <li>How it is secured;</li>
             <li>How policy changes will be communicated; and</li>

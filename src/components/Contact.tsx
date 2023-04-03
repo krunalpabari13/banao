@@ -43,7 +43,7 @@ const Contact = () => {
               type="text"
               name="pinCode"
               id="pinCode"
-              placeholder="Pin Code"
+              placeholder="Post Code"
               className="mt:[10px] outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px]"
             />
           </div>

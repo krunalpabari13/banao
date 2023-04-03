@@ -6,15 +6,15 @@ import SliderImg3 from "../assets/slider/sliderImg3.svg";
 const slides = [
   {
     url: SliderImg1,
-    author: "Abul",
+    author: "Deepak",
   },
   {
     url: SliderImg2,
-    author: "Babul",
+    author: "Deepak",
   },
   {
     url: SliderImg3,
-    author: "Cabul",
+    author: "Deepak",
   },
 ];
 

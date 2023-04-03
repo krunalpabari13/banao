@@ -41,7 +41,7 @@ const Services = () => {
           <div className='flex items-center justify-between'>
             <img src={Carpentry} alt="Carpentry" />
             <div className='ml-6'>
-              <h3 className='font-medium mb-2.5'>Tile Setters</h3>
+              <h3 className='font-medium mb-2.5'>Carpentry</h3>
               <p className='text-[#545454] text-sm'>We have master craftmen who knows how to choose right wood for the right work. Our team delivers perfect finish of any carpentry work without wasting materials.</p>
             </div>
           </div>
