@@ -7,18 +7,23 @@ const slides = [
   {
     url: SliderImg1,
     author: "Deepak",
+    address: "Yelahanka",
     message:
       "I am delighted to see my refurbished home, transformed in a spectacular manner. The way the tiles have been laid, kitchen has been re-modelled and the hall has been given a face lift using best false ceiling concept with grouted LED lighting. Excellent execution and on time delivery. Kudos to RBT",
   },
   {
     url: SliderImg2,
-    author: "BALAJI",
-    message: "We should thank you for the repairs and maintenece work done by you and your team and handing over the house in order on time."
+    author: "Balaji",
+    address: "Marathahalli",
+    message:
+      "We should thank you for the repairs and maintenece work done by you and your team and handing over the house in order on time.",
   },
   {
     url: SliderImg4,
     author: "Kalaivani",
-    message: "We will definitely call you only again because we will be and we are confident that out house is in  safe hands."
+    address: "JP Nagar",
+    message:
+      "We will definitely call you only again because we will be and we are confident that out house is in  safe hands.",
   },
 ];
 
@@ -51,7 +56,7 @@ const Testimonial = () => {
         <p className="">{slides[currentIndex].message}</p>
         <p className="mt-24 md:mt-16 lg:mt-16">
           <span className="font-medium">{slides[currentIndex].author}</span> |{" "}
-          <span className="text-[#545454]">Yelahanka</span>
+          <span className="text-[#545454]">{slides[currentIndex].address}</span>
         </p>
       </div>
     </div>
