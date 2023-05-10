@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./helper/ScrollToTop";
 
@@ -13,15 +13,23 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import GalleryDetails from "./components/GalleryDetails";
+import WelcomeModal from "./components/WelcomeModal";
 
 function App() {
+  const [showWelcomeModal, setShowWelcomeModal] = useState(true);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
+  const handleWelcomeModal = () => {
+    setShowWelcomeModal(false);
+  }
+
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <WelcomeModal showWelcomeModal={showWelcomeModal} handleWelcomeModal={handleWelcomeModal} />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

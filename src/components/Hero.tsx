@@ -34,8 +34,8 @@ const Hero = () => {
           Turnkey Solution For Every Project
         </h1>
         <p className="text-sm text-[#545454] w-[100%] md:w-[70%] lg:w-[50%]">
-          We are professionals who are experienced and deliver project of
-          exceptional quality while staying on schedule and under budget.
+          We are experienced professionals who deliver projects of exceptional
+          quality while staying on schedule and within budget.
         </p>
       </div>
       <div

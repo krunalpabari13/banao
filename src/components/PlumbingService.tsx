@@ -12,11 +12,11 @@ const PlumbingService = () => {
     <div className="grid grid-cols-12">
       <div className="col-start-1 lg:col-start-2 col-end-13 lg:col-end-6 self-center px-5 lg:px-0 mt-5 lg:mt-0" data-aos="fade-down">
         <h1 className="font-normal text-[28px] lg:text-[42px]">
-          Plumbing Service.
+          Plumbing Service
         </h1>
         <p className="text-[13px] lg:text-sm font-normal pt-3 lg:pt-5 text-[#545454]">
           Find a professional who is experienced, affordable, and reliable and
-          has the expertise and tools to fix your plumbing problem
+          has the expertise and tools to fix your plumbing problem.
         </p>
         <ul className="mt-10">
           <li className="flex items-center pb-3 lg:pb-5">

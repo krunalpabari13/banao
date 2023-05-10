@@ -12,7 +12,7 @@ const OurTeam = () => {
       >
         Meet our amazing team
       </h1>
-      <div className="w-full lg:flex gap-3 ">
+      <div className="w-full md:flex gap-3 ">
         <div data-aos="flip-right">
           <img src={CEO} className="w-[212px] lg:w-full mt-5 lg:mt-0 mx-auto" />
           <h3 className="text-xl font-medium text-center mt-5">

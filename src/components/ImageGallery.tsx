@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import GalleryImag1 from "../assets/gallery/Img1.svg";
 import GalleryImag2 from "../assets/gallery/Img2.svg";
 import GalleryImag6 from "../assets/gallery/img6.jpeg";
+import axios from "axios";
 
 const ImageGallery = () => {
+  const [media, setMedia] = useState(null);
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
   const navigate = useNavigate();
@@ -26,6 +28,21 @@ const ImageGallery = () => {
   const hide2Details = () => {
     setShow2(false);
   };
+
+  useEffect(() => {
+    axios
+      .get(`https://backend.raghavbuildtech.com/media/${2}`)
+      .then((response) => {
+        // Handle the response data
+        setMedia(response.data);
+      })
+      .catch((error) => {
+        // Handle any errors that occurred during the request
+        console.error(error);
+      });
+  }, []);
+
+  console.log(media);
 
   return (
     <div className="px-5 md:px-10 lg:px-[7.5rem] pb-5 md:pb-10 lg:pb-[7.5rem] pt-5 md:pt-10 lg:pt-[4.75rem]">

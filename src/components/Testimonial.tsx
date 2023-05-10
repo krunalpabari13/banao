@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import SliderImg1 from "../assets/slider/sliderImg1.svg";
-import SliderImg2 from "../assets/slider/sliderImg2.svg";
+import SliderImg2 from "../assets/slider/SliderImg2.png";
 import SliderImg4 from "../assets/slider/sliderImage4.png";
+import axios from "axios";
 
 const slides = [
   {
@@ -28,7 +29,23 @@ const slides = [
 ];
 
 const Testimonial = () => {
+  const [testimonial, setTestimonial] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    axios
+      .get("https://backend.raghavbuildtech.com/testimonial/")
+      .then((response) => {
+        // Handle the response data
+        setTestimonial(response.data);
+      })
+      .catch((error) => {
+        // Handle any errors that occurred during the request
+        console.error(error);
+      });
+  }, []);
+
+  console.log(testimonial);
 
   useEffect(() => {
     const intervalId = setInterval(() => {

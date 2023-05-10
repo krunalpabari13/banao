@@ -28,9 +28,12 @@ const RecentWork = () => {
           <div className="md:row-start-2 md:row-end-3 col-start-1 col-end-5 ">
             <img src={Rectangle3} alt="IMG3" data-aos="fade-right" />
           </div>
-          <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up"></div>
+          {/* <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up"></div> */}
+          <div className="md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up">
+          <img src={RedBox} alt="IMG4" data-aos="fade-up" />
+          </div>
           <div className="h-full md:row-start-2 md:row-end-3 md:col-start-9  md:col-end-13 ">
-            <img src={Rectangle4} alt="IMG4" data-aos="fade-left" />
+            <img src={Rectangle4} alt="IMG5" data-aos="fade-left" />
           </div>
         </div>
       </div>

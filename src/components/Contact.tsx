@@ -1,7 +1,23 @@
 import React from "react";
 import SmMan from "../assets/footer/smMan.svg";
+import axios from "axios";
 
 const Contact = () => {
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+    
+    try {
+      const response = await axios.post('https://backend.raghavbuildtech.com/contact/', data);
+      console.log(response.data);
+      // do something with the response if needed
+    } catch (error) {
+      console.log(error);
+      // handle errors if needed
+    }
+  };
+
   return (
     <div className="w-full lg:bg-[#F1F1EF] lg:flex items-center">
       <img
@@ -10,11 +26,23 @@ const Contact = () => {
         data-aos="fade-right"
       />
       <div className="px-5 lg:pl-8 bg-[#F1F1EF]">
-        <h1 className="font-normal text-[28px] lg:text-[42px] text-center md:text-center lg:text-start pt-5 lg:pt-0" data-aos="fade-up">Get in touch</h1>
-        <p className="pt-1 text-[13px] lg:text-base text-center md:text-center lg:text-start" data-aos="fade-up">
+        <h1
+          className="font-normal text-[28px] lg:text-[42px] text-center md:text-center lg:text-start pt-5 lg:pt-0"
+          data-aos="fade-up"
+        >
+          Get in touch
+        </h1>
+        <p
+          className="pt-1 text-[13px] lg:text-base text-center md:text-center lg:text-start"
+          data-aos="fade-up"
+        >
           Let’s discuss what’s next
         </p>
-        <form className="mt-[40px] max-w-[426px] mx-auto lg:mx-0 mb-5 md:mb-8 lg:mb-0" data-aos="fade-left">
+        <form
+          onSubmit={handleSubmit}
+          className="mt-[40px] max-w-[426px] mx-auto lg:mx-0 mb-5 md:mb-8 lg:mb-0"
+          data-aos="fade-left"
+        >
           <div className="lg:flex gap-[15px]">
             <input
               type="text"

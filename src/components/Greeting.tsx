@@ -4,7 +4,7 @@ import Utility from "../assets/home/greeting/utility.svg";
 import Quality from "../assets/home/greeting/quality.svg";
 import Transparency from "../assets/home/greeting/transparency.svg";
 import Adhering from "../assets/home/greeting/adhering.svg";
-import OurService from "../assets/home/OurService.svg";
+import OurService from "../assets/home/ourService.svg";
 
 const Greeting = () => {
   return (
@@ -18,8 +18,8 @@ const Greeting = () => {
           Raghav BuildTech
         </h1>
         <p className="text-[#404040] text-sm mb-[4.188rem] w-[45%] ml-16 md:ml-24 lg:ml-0">
-          Raghav BuildTech aspires to meet{" "}
-          <span className="font-bold">on-demand repairs and renovation</span>{" "}
+          Raghav BuildTech aspires to exceed your expectations of{" "}
+          <span className="font-bold">repairs and renovation</span>{" "}
           requirements by drawing on their organizational skills & efficiency of
           handling the project.
         </p>
