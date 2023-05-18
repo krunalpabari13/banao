@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SliderImg1 from "../assets/slider/sliderImg1.svg";
 import SliderImg2 from "../assets/slider/sliderImage4.png";
-
+import SliderImg3 from "../assets/about/img1.svg"
 const slides = [
   {
     url: SliderImg1,
@@ -9,6 +9,9 @@ const slides = [
   {
     url: SliderImg2,
   },
+  {
+    url: SliderImg3
+  }
 ];
 
 const Hero = () => {
