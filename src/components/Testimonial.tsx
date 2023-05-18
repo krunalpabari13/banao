@@ -52,7 +52,7 @@ const Testimonial = () => {
       setCurrentIndex(
         currentIndex === slides.length - 1 ? 0 : currentIndex + 1
       );
-    }, 3000);
+    }, 9000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
