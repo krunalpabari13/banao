@@ -36,8 +36,6 @@ const imagesOne = [
   { image: Img10 },
   { image: Img11 },
   { image: Img12 },
-  { image: Img13 },
-  { image: Img14 },
 ];
 
 const imagesTwo = [
@@ -52,6 +50,8 @@ const imagesTwo = [
   { image: Img23 },
   { image: Img24 },
   { image: Img25 },
+  { image: Img13 },
+  { image: Img14 },
 ];
 
 const GalleryDetails = () => {
