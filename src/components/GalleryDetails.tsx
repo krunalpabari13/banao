@@ -74,7 +74,7 @@ const GalleryDetails = () => {
         className="text-3xl md:text-4xl lg:text-[3.125rem] mb-5"
         data-aos="fade-up"
       >
-        Name of Project
+        {galleryId === "1" ? "Basveshvaranagar" : "Yelahanka"}
       </h1>
       <div
         className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32"
