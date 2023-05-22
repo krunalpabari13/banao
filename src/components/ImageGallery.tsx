@@ -3,12 +3,14 @@ import { useNavigate } from "react-router-dom";
 import GalleryImag1 from "../assets/gallery/Img1.svg";
 import GalleryImag2 from "../assets/gallery/Img2.svg";
 import GalleryImag6 from "../assets/gallery/img6.jpeg";
+import CoverImage from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.32 PM (1).jpeg"
 import axios from "axios";
 
 const ImageGallery = () => {
   const [media, setMedia] = useState(null);
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
+  const [show3, setShow3] = useState(false);
   const navigate = useNavigate();
 
   const navigateImageDetails = (id: any) => {
@@ -27,6 +29,12 @@ const ImageGallery = () => {
   };
   const hide2Details = () => {
     setShow2(false);
+  };
+  const show3Details = () => {
+    setShow3(true);
+  };
+  const hide3Details = () => {
+    setShow3(false);
   };
 
   useEffect(() => {
@@ -102,6 +110,38 @@ const ImageGallery = () => {
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
               Name of the Project
+            </h3>
+            <p className="text-[#D8D8D8] text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore
+            </p>
+          </div>
+        </div>
+        <div
+          onClick={() => navigateImageDetails(3)}
+          onMouseOver={show3Details}
+          onMouseOut={hide3Details}
+          className="relative"
+        >
+          <img
+            width="100%"
+            src={CoverImage}
+            alt="gallery image"
+            data-aos="fade-left"
+          />
+          <div
+            className={`absolute bottom-0 left-0 right-0 p-3 md:p-6 bg-[#000259] duration-500 ${
+              show3 ? "opacity-60" : "opacity-0"
+            }`}
+          >
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-[#D8D8D8] text-sm">
+                Completed &nbsp; • &nbsp; May 2022 - Jul 2022
+              </p>
+              <p className="text-white text-sm">25 Photos</p>
+            </div>
+            <h3 className="text-white font-medium text-lg mb-1">
+            RCC Retaining compound wall.
             </h3>
             <p className="text-[#D8D8D8] text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
