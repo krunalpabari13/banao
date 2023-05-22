@@ -79,10 +79,6 @@ const ImageGallery = () => {
             <h3 className="text-white font-medium text-lg mb-1">
             House construction at Basveshvaranagar, Bangalore
             </h3>
-            <p className="text-[#D8D8D8] text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore
-            </p>
           </div>
         </div>
         <div
@@ -111,10 +107,6 @@ const ImageGallery = () => {
             <h3 className="text-white font-medium text-lg mb-1">
               Name of the Project
             </h3>
-            <p className="text-[#D8D8D8] text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore
-            </p>
           </div>
         </div>
         <div
@@ -143,10 +135,6 @@ const ImageGallery = () => {
             <h3 className="text-white font-medium text-lg mb-1">
             RCC Retaining compound wall.
             </h3>
-            <p className="text-[#D8D8D8] text-sm">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore
-            </p>
           </div>
         </div>
       </div>
