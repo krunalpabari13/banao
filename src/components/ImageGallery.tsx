@@ -105,7 +105,7 @@ const ImageGallery = () => {
               <p className="text-white text-sm">25 Photos</p>
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
-              Name of the Project
+            Repairs and Renovations 
             </h3>
           </div>
         </div>
