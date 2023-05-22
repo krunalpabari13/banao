@@ -74,7 +74,7 @@ const ImageGallery = () => {
               <p className="text-[#D8D8D8] text-sm">
                 Completed &nbsp; • &nbsp; May 2022 - Jul 2022
               </p>
-              <p className="text-white text-sm">25 Photos</p>
+              <p className="text-white text-sm">10 Photos</p>
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
             House construction at Basveshvaranagar, Bangalore
@@ -102,7 +102,7 @@ const ImageGallery = () => {
               <p className="text-[#D8D8D8] text-sm">
                 Completed &nbsp; • &nbsp; May 2022 - Jul 2022
               </p>
-              <p className="text-white text-sm">25 Photos</p>
+              <p className="text-white text-sm">13 Photos</p>
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
             Repairs and Renovations 
@@ -130,7 +130,7 @@ const ImageGallery = () => {
               <p className="text-[#D8D8D8] text-sm">
                 Completed &nbsp; • &nbsp; May 2022 - Jul 2022
               </p>
-              <p className="text-white text-sm">25 Photos</p>
+              <p className="text-white text-sm">20 Photos</p>
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
             RCC Retaining compound wall.
