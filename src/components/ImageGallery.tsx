@@ -77,7 +77,7 @@ const ImageGallery = () => {
               <p className="text-white text-sm">25 Photos</p>
             </div>
             <h3 className="text-white font-medium text-lg mb-1">
-              Name of the Project
+            House construction at Basveshvaranagar, Bangalore
             </h3>
             <p className="text-[#D8D8D8] text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
