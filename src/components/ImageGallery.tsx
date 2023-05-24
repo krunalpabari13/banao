@@ -72,7 +72,7 @@ const ImageGallery = () => {
           >
             <div className="flex items-center justify-between mb-4">
               <p className="text-[#D8D8D8] text-sm">
-                Completed &nbsp; • &nbsp; May 2022 - Jul 2022
+                Completed &nbsp; • &nbsp; Nov 2022
               </p>
               <p className="text-white text-sm">10 Photos</p>
             </div>
@@ -100,7 +100,7 @@ const ImageGallery = () => {
           >
             <div className="flex items-center justify-between mb-4">
               <p className="text-[#D8D8D8] text-sm">
-                Completed &nbsp; • &nbsp; May 2022 - Jul 2022
+                Completed &nbsp; • &nbsp; April 2023
               </p>
               <p className="text-white text-sm">13 Photos</p>
             </div>
@@ -128,7 +128,7 @@ const ImageGallery = () => {
           >
             <div className="flex items-center justify-between mb-4">
               <p className="text-[#D8D8D8] text-sm">
-                Completed &nbsp; • &nbsp; May 2022 - Jul 2022
+                Completed &nbsp; • &nbsp; May 2023
               </p>
               <p className="text-white text-sm">20 Photos</p>
             </div>

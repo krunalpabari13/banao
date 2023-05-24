@@ -14,9 +14,9 @@ const ContactDetails = () => {
         <p className="pl-8 text-sm font-normal">
           <a href="tel:+918754502338">+91 875-450-2338</a>
         </p>
-        <p className="pl-8 text-sm font-normal">
+        {/* <p className="pl-8 text-sm font-normal">
           <a href="tel:+918754502338">+91 875-450-2338</a>
-        </p>
+        </p> */}
       </div>
       <div className="w-[280px] mt-5 lg:mt-0" data-aos="zoom-in">
         <div className="flex items-center pb-3">
@@ -36,9 +36,9 @@ const ContactDetails = () => {
         <p className="pl-8 text-sm font-normal">
           <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
         </p>
-        <p className="pl-8 text-sm font-normal">
+        {/* <p className="pl-8 text-sm font-normal">
           <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
-        </p>
+        </p> */}
       </div>
     </div>
   );

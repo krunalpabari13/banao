@@ -24,13 +24,13 @@ const Footer = () => {
             <Link to="/">Home</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
-            <Link to="/about">About us</Link>
-          </p>
-          <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <Link to="/services">Services</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <Link to="/gallery">Gallery</Link>
+          </p>
+          <p className="text-[#AFAFAF] font-normal text-sm pt-4">
+            <Link to="/about">About us</Link>
           </p>
           <p className="text-[#AFAFAF] font-normal text-sm pt-4">
             <Link to="/contact">Contact us</Link>

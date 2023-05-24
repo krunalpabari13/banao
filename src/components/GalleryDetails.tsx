@@ -127,10 +127,10 @@ const GalleryDetails = () => {
       >
         <div className="mb-5 md:mb-8 lg:mb-0">
           <p className="text-[#545454] mb-3">WIP • May 2022 - Jul 2022</p>
-          <p>
+          {/* <p>
             Address - Y - 222, VGN Kimberly Towers, 2nd Avenue, Anna Nagar,
             Chennai - 600040.
-          </p>
+          </p> */}
         </div>
         <p className="w-[100%] lg:w-[50%] text-[#545454]">
           Our approach is unique: it aims to build a long-term relationship.
