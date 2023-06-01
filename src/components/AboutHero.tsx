@@ -26,7 +26,7 @@ const AboutHero = () => {
       />
       <img
         src={AboutHeroImg}
-        className="w-full hidden lg:block"
+        className="w-full h-[495px] hidden lg:block object-cover"
         data-aos="fade-up"
       />
     </>
