@@ -1,6 +1,6 @@
 import React from "react";
 import AboutHeroImg from "../assets/about/image 31AboutUs_Banner.svg";
-import AboutHeroSmImg from "../assets/about/smImg1.svg";
+import AboutHeroSmImg from "../assets/about/image 31AboutUs_Banner.svg";
 
 const AboutHero = () => {
   return (
