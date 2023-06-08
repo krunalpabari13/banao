@@ -1,7 +1,11 @@
 import React from "react";
 import WelcomeModalImg from "../assets/home/WelcomeModal.svg";
 
-const WelcomeModal = ({ showWelcomeModal, handleWelcomeModal }: any) => {
+const WelcomeModal = ({
+  showWelcomeModal,
+  handleWelcomeModal,
+  ModalImageLoaded,
+}: any) => {
   return (
     <div
       className={`${
@@ -34,7 +38,12 @@ const WelcomeModal = ({ showWelcomeModal, handleWelcomeModal }: any) => {
           </button>
 
           <div className="">
-            <img className="" src={WelcomeModalImg} alt="" />
+            <img
+              className=""
+              onLoad={ModalImageLoaded}
+              src={WelcomeModalImg}
+              alt=""
+            />
           </div>
         </div>
       </div>

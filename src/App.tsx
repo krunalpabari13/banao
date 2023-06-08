@@ -17,19 +17,24 @@ import WelcomeModal from "./components/WelcomeModal";
 
 function App() {
   const [showWelcomeModal, setShowWelcomeModal] = useState(true);
-
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
   const handleWelcomeModal = () => {
     setShowWelcomeModal(false);
-  }
-
+  };
+  const ModalImageLoaded = () => {
+    document.body.style.display = "block";
+  };
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <WelcomeModal showWelcomeModal={showWelcomeModal} handleWelcomeModal={handleWelcomeModal} />
+      <WelcomeModal
+        showWelcomeModal={showWelcomeModal}
+        handleWelcomeModal={handleWelcomeModal}
+        ModalImageLoaded={ModalImageLoaded}
+      />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

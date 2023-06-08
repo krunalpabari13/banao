@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../assets/about/avatar.svg";
+import Avatar from "../assets/about/founder.jpeg";
 import Line from "../assets/about/line.svg";
 
 const Goal = () => {
@@ -100,15 +100,16 @@ const Goal = () => {
             Pvt Ltd, the founder has also successfully established himself as
             the CEO of Magnolia Community Health Pvt Ltd by ramping up “100%
             Digital, on campus, Holistic Health and Wellness Employee Health
-            Services Transformation Company”. <br /> <br /> As a business leader with enormous
-            experience in Projects and Management, Healthcare Service delivery
-            expertise, meticulous maintenance of advanced medical devices, P&L
-            management, Operations, sales, marketing & business development
-            skills and innovative digital healthcare delivery insights, he has
-            demonstrated himself as a reliable leader and delivered strong
-            business growth. <br /><br /> Along with core academic credentials of M.Tech
-            (Micro Electronics) from IIT Kharagpur and B.Tech (Electrical) from
-            NIT Warangal, he holds a PGDBM (HRD) from Symbiosis institute of
+            Services Transformation Company”. <br /> <br /> As a business leader
+            with enormous experience in Projects and Management, Healthcare
+            Service delivery expertise, meticulous maintenance of advanced
+            medical devices, P&L management, Operations, sales, marketing &
+            business development skills and innovative digital healthcare
+            delivery insights, he has demonstrated himself as a reliable leader
+            and delivered strong business growth. <br />
+            <br /> Along with core academic credentials of M.Tech (Micro
+            Electronics) from IIT Kharagpur and B.Tech (Electrical) from NIT
+            Warangal, he holds a PGDBM (HRD) from Symbiosis institute of
             management studies, Pune. He is also certificated in Defense
             Management from the College of Defence Management (CDM) Secunderabad
             and project management from Industrial Project Management from
