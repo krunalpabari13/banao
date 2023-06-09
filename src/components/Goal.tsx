@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar from "../assets/about/founder.jpeg";
+import Avatar from "../assets/about/avatar.svg";
 import Line from "../assets/about/line.svg";
 
 const Goal = () => {
