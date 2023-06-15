@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import SmMan from "../assets/footer/smMan.svg";
 import axios from "axios";
 
 const Contact = () => {
+  const [Error, setError] = useState(true);
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData.entries());
-    
+
     try {
-      const response = await axios.post('https://backend.raghavbuildtech.com/contact/', data);
-      console.log(response.data);
+      const response = await axios.post(
+        "https://backend.raghavbuildtech.com/contact/",
+        data
+      );
+      if (response) {
+        setError(false);
+      }
       // do something with the response if needed
     } catch (error) {
+      setError(true);
       console.log(error);
       // handle errors if needed
     }
@@ -81,9 +88,15 @@ const Contact = () => {
             placeholder="Message"
             className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px] resize-none h-[109px]"
           ></textarea>
-          <button className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]">
-            Send Message
-          </button>
+          {!Error ? (
+            <button className="text-black text-base py-2 w-full bg-[#F1F1EF] mt-[10px] lg:mt-[20px]">
+              Message sent
+            </button>
+          ) : (
+            <button className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]">
+              Send Message
+            </button>
+          )}
         </form>
       </div>
     </div>
