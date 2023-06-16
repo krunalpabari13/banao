@@ -9,8 +9,10 @@ const Contact = () => {
   const [Pincode, setPincode] = useState("");
   const [Phone, setPhone] = useState("");
   const [Message, setMessage] = useState("");
+  const [loading, setloading] = useState(false);
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    setloading(true);
     const data = {
       name: Name,
       email: Email,
@@ -36,8 +38,10 @@ const Contact = () => {
       setPhone("");
       setName("");
       setPincode("");
+      setloading(false);
     } else {
       setError(true);
+      setloading(false);
     }
   };
 
@@ -132,8 +136,11 @@ const Contact = () => {
               Message sent
             </button>
           ) : (
-            <button className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]">
-              Send Message
+            <button
+              className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]"
+              disabled={loading ? true : false}
+            >
+              {loading ? "Sending..." : "Send Message"}
             </button>
           )}
         </form>
