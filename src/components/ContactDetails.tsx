@@ -14,9 +14,6 @@ const ContactDetails = () => {
         <p className="pl-8 text-sm font-normal">
           <a href="tel:+918754502338">+91 875-450-2338</a>
         </p>
-        <p className="pl-8 text-sm font-normal">
-          <a href="tel:+918754502338">+91 875-450-2338</a>
-        </p>
       </div>
       <div className="w-[280px] mt-5 lg:mt-0" data-aos="zoom-in">
         <div className="flex items-center pb-3">
@@ -33,9 +30,6 @@ const ContactDetails = () => {
           <img src={Mail} alt="mail" className="mr-3" />
           <p className="font-semibold text-[20px] text-[#545454]">Chat</p>
         </div>
-        <p className="pl-8 text-sm font-normal">
-          <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
-        </p>
         <p className="pl-8 text-sm font-normal">
           <a href="mailto:ragainn@gmail.com">ragainn@gmail.com</a>
         </p>

@@ -74,7 +74,7 @@ const Goal = () => {
           <img
             src={Avatar}
             alt="avatar"
-            className="rounded-full w-[100px] h-[100px] mr-5"
+            className="rounded-full w-[150px] h-[150px] mr-5"
           />
           <div className="mt-2">
             <h1 className="font-bold text-2xl mb-1 md:mb-1.5">
@@ -95,10 +95,25 @@ const Goal = () => {
             Management, Healthcare Service delivery.
           </p>
           <p className="mt-10 lg:mt-10">
-            As a business leader, he has demonstrated his expertise in
-            innovative digital healthcare delivery insights, strong operational
-            expertise and meticulous planning and maintenance of advanced
-            medical devices. Highly accomplished and reliable leader.
+            In addition to his exhaustive Pan India exposure to Radiology and
+            pathology business in diagnostic industry through Medall Healthcare
+            Pvt Ltd, the founder has also successfully established himself as
+            the CEO of Magnolia Community Health Pvt Ltd by ramping up “100%
+            Digital, on campus, Holistic Health and Wellness Employee Health
+            Services Transformation Company”. <br /> <br /> As a business leader
+            with enormous experience in Projects and Management, Healthcare
+            Service delivery expertise, meticulous maintenance of advanced
+            medical devices, P&L management, Operations, sales, marketing &
+            business development skills and innovative digital healthcare
+            delivery insights, he has demonstrated himself as a reliable leader
+            and delivered strong business growth. <br />
+            <br /> Along with core academic credentials of M.Tech (Micro
+            Electronics) from IIT Kharagpur and B.Tech (Electrical) from NIT
+            Warangal, he holds a PGDBM (HRD) from Symbiosis institute of
+            management studies, Pune. He is also certificated in Defense
+            Management from the College of Defence Management (CDM) Secunderabad
+            and project management from Industrial Project Management from
+            NITTE, Mumbai.
           </p>
         </div>
       </div>

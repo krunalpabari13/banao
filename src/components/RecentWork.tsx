@@ -4,6 +4,7 @@ import Rectangle4 from "../assets/home/recentWork/Rectangle4.svg";
 import Rectangle2 from "../assets/home/recentWork/Rectangle2.svg";
 import Rectangle3 from "../assets/home/recentWork/Rectangle3.svg";
 import RedBox from "../assets/home/recentWork/RedBox.svg";
+import RecentWorkImage from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.34 PM (1).jpeg"
 
 const RecentWork = () => {
   return (
@@ -30,7 +31,7 @@ const RecentWork = () => {
           </div>
           {/* <div className=" bg-[#D1495C] md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up"></div> */}
           <div className="md:row-start-2 md:row-end-3 md:col-start-5 md:col-end-9" data-aos="fade-up">
-          <img src={RedBox} alt="IMG4" data-aos="fade-up" />
+          <img src={RecentWorkImage} style={{width:"100%" , height:"341px", objectFit:"cover"}} alt="IMG4" data-aos="fade-up" />
           </div>
           <div className="h-full md:row-start-2 md:row-end-3 md:col-start-9  md:col-end-13 ">
             <img src={Rectangle4} alt="IMG5" data-aos="fade-left" />

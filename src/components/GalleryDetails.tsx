@@ -23,6 +23,27 @@ import Img22 from "../assets/gallery/img22.jpeg";
 import Img23 from "../assets/gallery/img23.jpeg";
 import Img24 from "../assets/gallery/img24.jpeg";
 import Img25 from "../assets/gallery/img25.jpeg";
+// Third projects images
+import Img26 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.28 PM (1).jpeg";
+import Img27 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.28 PM.jpeg";
+import Img28 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.29 PM (1).jpeg";
+import Img29 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.29 PM (2).jpeg";
+import Img30 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.29 PM.jpeg";
+import Img31 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.30 PM (1).jpeg";
+import Img32 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.30 PM (2).jpeg";
+import Img33 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.30 PM.jpeg";
+import Img34 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.34 PM.jpeg";
+import Img35 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.31 PM (1).jpeg";
+import Img36 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.31 PM (2).jpeg";
+import Img37 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.31 PM (3).jpeg";
+import Img38 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.31 PM.jpeg";
+import Img39 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.32 PM (1).jpeg";
+import Img40 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.32 PM (2).jpeg";
+import Img41 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.32 PM.jpeg";
+import Img42 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM (1).jpeg";
+import Img43 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM (2).jpeg";
+import Img44 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM.jpeg";
+import Img45 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.34 PM (1).jpeg";
 import GalleryImageModal from "./GalleryImageModal";
 
 const imagesOne = [
@@ -36,8 +57,6 @@ const imagesOne = [
   { image: Img10 },
   { image: Img11 },
   { image: Img12 },
-  { image: Img13 },
-  { image: Img14 },
 ];
 
 const imagesTwo = [
@@ -52,8 +71,31 @@ const imagesTwo = [
   { image: Img23 },
   { image: Img24 },
   { image: Img25 },
+  { image: Img13 },
+  { image: Img14 },
 ];
-
+const imagesThree = [
+  Img26,
+  Img27,
+  Img28,
+  Img29,
+  Img30,
+  Img31,
+  Img32,
+  Img33,
+  Img34,
+  Img35,
+  Img36,
+  Img37,
+  Img38,
+  Img39,
+  Img40,
+  Img41,
+  Img42,
+  Img43,
+  Img44,
+  Img45,
+];
 const GalleryDetails = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [image, setImage] = useState("");
@@ -74,19 +116,15 @@ const GalleryDetails = () => {
         className="text-3xl md:text-4xl lg:text-[3.125rem] mb-5"
         data-aos="fade-up"
       >
-        Name of Project
+        {galleryId === "1" && "Basveshvaranagar"}
+        {galleryId === "2" && "Yelahanka"}
+        {galleryId === "3" && "RCC Retaining compound wall."}
       </h1>
       <div
         className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32"
         data-aos="fade-up"
       >
-        <div className="mb-5 md:mb-8 lg:mb-0">
-          <p className="text-[#545454] mb-3">WIP • May 2022 - Jul 2022</p>
-          <p>
-            Address - Y - 222, VGN Kimberly Towers, 2nd Avenue, Anna Nagar,
-            Chennai - 600040.
-          </p>
-        </div>
+        <div className="mb-5 md:mb-8 lg:mb-0"></div>
         <p className="w-[100%] lg:w-[50%] text-[#545454]">
           Our approach is unique: it aims to build a long-term relationship.
           Maintaining your home is essential to preserve its value and we work
@@ -123,6 +161,19 @@ const GalleryDetails = () => {
               className="w-[33rem] h-[27rem]"
               key={index}
               src={image.image}
+              alt=""
+              data-aos="zoom-in"
+            />
+          ))}
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-5 sm:ml-14 md:ml-0">
+        {galleryId === "3" &&
+          imagesThree.map((image: any, index): any => (
+            <img
+              onClick={() => handleOpen(image)}
+              className="w-[33rem] h-[27rem]"
+              key={index}
+              src={image}
               alt=""
               data-aos="zoom-in"
             />

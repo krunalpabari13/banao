@@ -1,20 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import SmMan from "../assets/footer/smMan.svg";
 import axios from "axios";
 
 const Contact = () => {
+  const [Error, setError] = useState(true);
+  const [Name, setName] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Pincode, setPincode] = useState("");
+  const [Phone, setPhone] = useState("");
+  const [Message, setMessage] = useState("");
+  const [loading, setloading] = useState(false);
   const handleSubmit = async (e: any) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData.entries());
-    
-    try {
-      const response = await axios.post('https://backend.raghavbuildtech.com/contact/', data);
-      console.log(response.data);
-      // do something with the response if needed
-    } catch (error) {
-      console.log(error);
-      // handle errors if needed
+    setloading(true);
+    const data = {
+      name: Name,
+      email: Email,
+      phone_number: Phone,
+      post_code: Pincode,
+      message: Message,
+    };
+    const Contact = await fetch(
+      "https://backend.raghavbuildtech.com/contact/contact_us/",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+    const res = await Contact.json();
+    if (res?.success) {
+      setError(false);
+      setEmail("");
+      setMessage("");
+      setPhone("");
+      setName("");
+      setPincode("");
+      setloading(false);
+    } else {
+      setError(true);
+      setloading(false);
     }
   };
 
@@ -48,6 +75,10 @@ const Contact = () => {
               type="text"
               name="name"
               id="name"
+              value={Name}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
               placeholder="Your name"
               className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full"
             />
@@ -55,6 +86,10 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
+              value={Email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
               placeholder="Your email"
               className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[0px]"
             />
@@ -62,28 +97,52 @@ const Contact = () => {
           <div className="lg:flex gap-[15px]">
             <input
               type="text"
-              name="phone"
+              name="phone_number"
               id="phone"
+              value={Phone}
+              onChange={(e) => {
+                setPhone(e.target.value);
+              }}
               placeholder="Phone number"
               className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px]"
             />
             <input
               type="text"
-              name="pinCode"
+              name="post_code"
               id="pinCode"
+              value={Pincode}
+              onChange={(e) => {
+                setPincode(e.target.value);
+              }}
               placeholder="Post Code"
               className="mt:[10px] outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px]"
             />
           </div>
           <textarea
-            name="text"
+            name="message"
             id="text"
             placeholder="Message"
+            value={Message}
+            onChange={(e) => {
+              setMessage(e.target.value);
+            }}
             className="outline-none border border-[#9E9E9E] rounded-none text-base px-4 py-2 w-full mt-[10px] lg:mt-[20px] resize-none h-[109px]"
           ></textarea>
-          <button className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]">
-            Send Message
-          </button>
+          {!Error ? (
+            <button
+              className="text-black text-base py-2 w-full bg-[#F1F1EF] mt-[10px] lg:mt-[20px]"
+              disabled
+            >
+              Message sent
+            </button>
+          ) : (
+            <button
+              className="text-white text-base py-2 w-full bg-[#CD4055] mt-[10px] lg:mt-[20px]"
+              disabled={loading ? true : false}
+            >
+              {loading ? "Sending..." : "Send Message"}
+            </button>
+          )}
         </form>
       </div>
     </div>

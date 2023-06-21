@@ -26,6 +26,13 @@ const slides = [
     message:
       "We will definitely call you only again because we will be and we are confident that out house is in  safe hands.",
   },
+  {
+    url: SliderImg2,
+    author: "MANTRI Tranquil apartment",
+    address: "JP Nagar",
+    message:
+      "Very grateful to you for executing the project so well. I can see that you have done it like you’d do for your own home .",
+  },
 ];
 
 const Testimonial = () => {
@@ -52,7 +59,7 @@ const Testimonial = () => {
       setCurrentIndex(
         currentIndex === slides.length - 1 ? 0 : currentIndex + 1
       );
-    }, 3000);
+    }, 9000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
