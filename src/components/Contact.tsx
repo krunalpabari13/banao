@@ -133,7 +133,8 @@ const Contact = () => {
               className="text-black text-base py-2 w-full bg-[#F1F1EF] mt-[10px] lg:mt-[20px]"
               disabled
             >
-              Message sent
+              Thank you for contacting us. We are delighted to receive your
+              message. We shall get back to you shortly.
             </button>
           ) : (
             <button
