@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#444358] w-full px-5 py-10 md:px-[120px] md:py-[60px] mt-5 md:mt-0" data-aos="fade-up">
+    <div
+      className="bg-[#444358] w-full px-5 py-10 md:px-[120px] md:py-[60px] mt-5 md:mt-0"
+      data-aos="fade-up"
+    >
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-12 grid-flow-row-dense pb-[72px] border-b border-white">
         <div className="md:col-start-1 md:col-end-4">
           <h3 className="text-white font-normal text-lg">Raghav BuildTech</h3>
@@ -52,6 +55,9 @@ const Footer = () => {
             >
               Linkedin
             </a>
+          </p>
+          <p className="text-[#444358] font-normal text-xs pt-4" aria-disabled>
+            https://banao.tech
           </p>
         </div>
       </div>
