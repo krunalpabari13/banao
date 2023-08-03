@@ -44,6 +44,29 @@ import Img42 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM (1
 import Img43 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM (2).jpeg";
 import Img44 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.33 PM.jpeg";
 import Img45 from "../assets/gallery/WhatsApp Image 2023-05-21 at 11.51.34 PM (1).jpeg";
+import g1 from "../assets/gallery/graphic1.jpeg"
+import g2 from "../assets/gallery/graphic2.jpeg"
+import g3 from "../assets/gallery/graphic3.jpeg"
+import g4 from "../assets/gallery/graphic4.jpeg"
+import g5 from "../assets/gallery/graphic5.jpeg"
+import g6 from "../assets/gallery/graphic6.jpeg"
+import g7 from "../assets/gallery/graphic7.jpeg"
+import g8 from "../assets/gallery/graphic8.jpeg"
+import g9 from "../assets/gallery/graphic9.jpeg"
+import g10 from "../assets/gallery/graphic10.jpeg"
+import g11 from "../assets/gallery/graphic11.jpeg"
+import g12 from "../assets/gallery/graphic12.jpeg"
+import g13 from "../assets/gallery/graphic13.jpeg"
+import g14 from "../assets/gallery/graphic14.jpeg"
+import g15 from "../assets/gallery/graphic15.jpeg"
+import g16 from "../assets/gallery/graphic16.jpeg"
+import g17 from "../assets/gallery/graphic17.jpeg"
+import g18 from "../assets/gallery/graphic18.jpeg"
+import g19 from "../assets/gallery/graphic19.jpeg"
+import g20 from "../assets/gallery/graphic20.jpeg"
+import g21 from "../assets/gallery/graphic21.jpeg"
+
+
 import GalleryImageModal from "./GalleryImageModal";
 
 const imagesOne = [
@@ -96,6 +119,9 @@ const imagesThree = [
   Img44,
   Img45,
 ];
+const imagesFour=[
+g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12,g13,g14,g15,g16,g17,g18,g19,g20,g21
+];
 const GalleryDetails = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [image, setImage] = useState("");
@@ -119,6 +145,7 @@ const GalleryDetails = () => {
         {galleryId === "1" && "Basveshvaranagar"}
         {galleryId === "2" && "Yelahanka"}
         {galleryId === "3" && "RCC Retaining compound wall."}
+        {galleryId==="4" && "Graphic Version"}
       </h1>
       <div
         className="flex-col md:flex-col lg:flex-row flex justify-between text-sm mb-32"
@@ -180,6 +207,19 @@ const GalleryDetails = () => {
           ))}
       </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-5 sm:ml-14 md:ml-0">
+        {galleryId === "4" &&
+          imagesFour.map((image: any, index): any => (
+            <img
+              onClick={() => handleOpen(image)}
+              className="w-[33rem] h-[27rem]"
+              key={index}
+              src={image}
+              alt=""
+              data-aos="zoom-in"
+            />
+          ))}
+      </div>
       <GalleryImageModal image={image} isOpen={isOpen} onClose={handleClose} />
     </div>
   );

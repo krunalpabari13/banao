@@ -1,0 +1,556 @@
+[33mcommit 378a196c8ca095d3a95f79fcf44929f5f796cca0[m[33m ([m[1;36mHEAD -> [m[1;32mkrunal[m[33m, [m[1;31morigin/ui-anshal1[m[33m, [m[1;32mui-anshal1[m[33m)[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 22 16:24:44 2023 +0530
+
+    Title changed and link added in footer
+
+[33mcommit 445ce176962e02fede4e03f56e1f4697ae20e6a4[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 22 16:18:22 2023 +0530
+
+    Description changed
+
+[33mcommit 54bc138d740e18752da8c0744ef296230c55b485[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Wed Jun 21 06:14:44 2023 +0530
+
+    Contact us message changed
+
+[33mcommit 72cfd2ad213e90a75e5b08db6b0dd1dda64fbc20[m
+Merge: f891ff1 08b2238
+Author: amshal1 <panshal911@gmail.com>
+Date:   Wed Jun 21 06:10:50 2023 +0530
+
+    Merge branch 'ui-anshal1' of https://github.com/banao-tech/raghav-buildtech_-new-website into ui-anshal1
+
+[33mcommit f891ff10abff55b5afb4b4f88c5b497a2f362176[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Wed Jun 21 06:10:35 2023 +0530
+
+    Package lock json file changed
+
+[33mcommit 08b2238fc7304d7c33d35aaded7d5737acb7163a[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Fri Jun 16 11:11:43 2023 +0530
+
+    Loading state added
+
+[33mcommit 3f816688d1c10cd3fc751f23bcdd5bcca87ce735[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Fri Jun 16 07:16:45 2023 +0530
+
+    Contact Us Api integrated
+
+[33mcommit db0b3e35618f91c8555c884e4dccf761d692ff23[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 15 14:41:27 2023 +0530
+
+    Contach us State Chnaged
+
+[33mcommit 247331481305e58a1c0369320d9403ab195c58e8[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Fri Jun 9 19:13:52 2023 +0530
+
+    Founder image changed to previous image
+
+[33mcommit ab11f5f583f6ddc66200c18273052cbf702605ff[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 8 08:34:42 2023 +0530
+
+    New founder image added and modal image loading time decreased
+
+[33mcommit b8d3cd7940a254f0fc45fa2f6964d0aaab76e5c2[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon Jun 5 14:17:36 2023 +0530
+
+    Favicon added
+
+[33mcommit 3bdfe7576d8c1b3a8351f86d296ff908be7090b9[m
+Merge: f32c7bf e936699
+Author: Ashish Prasad <77892788+Ashish558@users.noreply.github.com>
+Date:   Fri Jun 2 14:40:38 2023 +0530
+
+    Merge pull request #1 from banao-tech/backup
+    
+    Backup
+
+[33mcommit 2afa898b391251ba165b7edb56ec7fa10df3ed9f[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 1 15:44:01 2023 +0530
+
+    Dimension Changed for banner image in aboutus page
+
+[33mcommit 24aeadee86d31f4b18410f08658c1b7fbbedbd38[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 1 15:17:14 2023 +0530
+
+    Banner Image Changed
+
+[33mcommit 93819336d23931b666227b2aad40dfbff0dacc7d[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 1 15:08:19 2023 +0530
+
+    Banner Image Added in About Us Page
+
+[33mcommit 3621ddbca8c8dbfeded1f2ade2df4019176fa2d7[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu Jun 1 15:06:56 2023 +0530
+
+    About us page banner new image added in assets folder
+
+[33mcommit 2f5b555b66d5a65aa175ceed5d5691bbcf97807b[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 29 18:49:14 2023 +0530
+
+    Removed some unwanted text
+
+[33mcommit e17dd4e90bc69ef4cbeb31ddc02fd84aa92eb1d3[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Fri May 26 20:38:31 2023 +0530
+
+    SVG background color changed
+
+[33mcommit 5f1dfe82f2a3b2ac45fd5be2eb57abcf0f5de90c[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Wed May 24 12:40:51 2023 +0530
+
+    Removed unused comments
+
+[33mcommit a860b1870fd9bfbbf8e2d83ac7ecf0fadc47d62a[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Wed May 24 12:34:29 2023 +0530
+
+    New observation issue are fixed
+
+[33mcommit 17fec47d2976fd95df18c67081ed678d3d49dbd0[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 19:05:35 2023 +0530
+
+    No of photos added
+
+[33mcommit 6f823dbb2074a1ee2bba59e9df1c69420e32c849[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 18:55:59 2023 +0530
+
+    Our recent works images added
+
+[33mcommit b0bfda696ce5ee98ce03dd6c19fcb4b8543e9d00[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 18:48:14 2023 +0530
+
+    Name of the remaining projects added
+
+[33mcommit c9d5f32fba0914081d79600f44625f62c3998116[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 18:47:10 2023 +0530
+
+    Sub title removed from gallery card
+
+[33mcommit 36ad530301c222275e7a932b73b72aa35b34d225[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 00:35:29 2023 -0700
+
+    Founder description added and image size increased
+
+[33mcommit d68e9634c4d0ecce1ddb43aff87a6c6997ccb821[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 00:28:11 2023 -0700
+
+    New testimonial added
+
+[33mcommit c7969fdf7862892d35a09dc285967b9921d6f2db[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 00:24:10 2023 -0700
+
+    Gallery images added
+
+[33mcommit d0593e5acb15e70f025f66ed4c58d0cfe4c9cc4c[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 00:23:00 2023 -0700
+
+    gallery card added
+
+[33mcommit 25845c041d277478c5a703bde0ae4e06ddaa4e06[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Mon May 22 00:03:10 2023 -0700
+
+    New projects images added in assets folder
+
+[33mcommit 3a29142273113c490fc7d58d6fa9f995d674f938[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu May 18 05:04:23 2023 -0700
+
+    Project name added
+
+[33mcommit 4ebe334f3248b93f628427fb7d5a548a9b7c979e[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu May 18 04:24:37 2023 -0700
+
+    Project images changed
+
+[33mcommit 78f5fbde0acb59df4ba58c85512d958f885c1d79[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu May 18 04:17:51 2023 -0700
+
+    Slider time increased for testimonial
+
+[33mcommit 4d91756beac35047c3fdd355f78010306d810ce5[m
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu May 18 04:17:04 2023 -0700
+
+    Third image added in herosection slide
+
+[33mcommit f2fe939fc4f49b6e3d4e502f7c512ab9d1b7585b[m
+Merge: f32c7bf e936699
+Author: amshal1 <panshal911@gmail.com>
+Date:   Thu May 18 04:03:05 2023 -0700
+
+    Merge branch 'backup' of https://github.com/banao-tech/raghav-buildtech_-new-website into backup
+
+[33mcommit e936699fbdbc77f2076bfcb975b9892addd95bce[m[33m ([m[1;31morigin/backup[m[33m)[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed May 10 20:25:26 2023 +0600
+
+    main code
+
+[33mcommit f32c7bf61ad8daad1e93af5fa6b2b83299a01b46[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Apr 12 09:36:26 2023 +0600
+
+    Purged history of src directory
+
+[33mcommit c5a09a93b71840f74530b3a713923f8489890f50[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Apr 8 09:51:21 2023 +0600
+
+    update client address
+
+[33mcommit 02c594ec24513c28cb15d9be97ee1080103ed1ae[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Apr 5 14:28:33 2023 +0600
+
+    client message added
+
+[33mcommit dbb485465757abe95a8005b9a3b3bbae6349d726[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Apr 3 18:02:58 2023 +0600
+
+    fix some bugs
+
+[33mcommit 3fe50ac698348e962f0a6557ee2a1f3278d3552a[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Thu Mar 30 14:25:28 2023 +0600
+
+    implement active link
+
+[33mcommit 996c933f1eb736acbe46b87d06696123a8aa7941[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 21:27:00 2023 +0600
+
+    scroolbar removed
+
+[33mcommit 5f0052c404e0dbb98ca8d694b619ec7c6212fd66[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 21:03:21 2023 +0600
+
+    solved all bugs
+
+[33mcommit 193a7f1616e3a92c14db19115dcb8629cc67b0a2[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 15:58:04 2023 +0600
+
+    animation added all pages
+
+[33mcommit a46feac2c28efb892224dfd146e77faa2e938864[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 15:11:36 2023 +0600
+
+    animation added in contact and privacy page
+
+[33mcommit 83a1d46511124bd7f2af55b9c118b675f42c0379[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 15:06:05 2023 +0600
+
+    animation added in about page
+
+[33mcommit a3b5555c61455f9414140fb54d4fd6db996f5a59[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 14:55:33 2023 +0600
+
+    add animation in gallery page
+
+[33mcommit f73d739d1188f8cc8a7076a753cd599174fa2cc8[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 14:53:14 2023 +0600
+
+    add animation in services pages
+
+[33mcommit e192f17fa1892db2bd8e306db88954c5f1cc5f6a[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 14:44:01 2023 +0600
+
+    animation add in home page
+
+[33mcommit 17f4c1212428537d3ab17560a77d8ef4841efdfe[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 14:27:25 2023 +0600
+
+    add loader
+
+[33mcommit 75dabdcfaa1707f49fda3a261546c50665229310[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 14:01:59 2023 +0600
+
+    fix responsiveness of choose component
+
+[33mcommit b6e1ee21b83caa3c170b8ffd8715e8b81c686ffc[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 29 13:18:53 2023 +0600
+
+    add scrolltotop that show top of the page
+
+[33mcommit c8d13562b4e95919023a597a8097bd2a3e82da2c[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 21:43:12 2023 +0600
+
+    removed terms and conditions from footer
+
+[33mcommit 53ecf97c6ef1d1bd5d676d6325da6aa71672c471[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 21:34:11 2023 +0600
+
+    greeting section done
+
+[33mcommit 4ed6e8951b215aef9369af4918b03965d3fe8b4b[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 19:49:14 2023 +0600
+
+    fix galler page image and add hover style
+
+[33mcommit 176df8112089e35a3caba4e59cfca09128a90706[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 17:36:23 2023 +0600
+
+    fix somethng on greeting component
+
+[33mcommit 42cfcf96263df2c88b10219f1bfdb91dd704a8b4[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 16:26:18 2023 +0600
+
+    fix testimonial and and carousel hero and testimonial section
+
+[33mcommit 93b56cf7f4a64e333b6cab7d2a5237781ea94d49[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 28 11:29:17 2023 +0600
+
+    change footer heading and update location
+
+[33mcommit a612b10673c1dc40f6040e11e66f1c6dad8fc1f8[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Mar 27 19:51:38 2023 +0600
+
+    solved all bug
+
+[33mcommit 9ec153d51bf29c4e583257cd7561afa28eff2b09[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Mar 27 19:38:19 2023 +0600
+
+    solved almost all bug
+
+[33mcommit 100f8dbc4b241cf25d40f94305380a3a6a49299c[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Mar 27 15:15:48 2023 +0600
+
+    location phone and email updated
+
+[33mcommit 224ff2a4230ca2ed6f104a366a66aed749e74f7f[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Mar 27 14:53:54 2023 +0600
+
+    reduce padding of lets dicuss whats next
+
+[33mcommit dafecad5b238544e6a3e804352274cbcf0a5b12d[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Mon Mar 27 14:27:21 2023 +0600
+
+    redirect to call
+
+[33mcommit 19c95be067fe9fc67e364f72c45ec90b575740e9[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sun Mar 26 16:37:22 2023 +0600
+
+    recent work section is done
+
+[33mcommit 9b5d2149e3c4304777e0ab1949419698c1c5cc3e[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 25 17:37:17 2023 +0600
+
+    gallery page done
+
+[33mcommit fca73c45ece15c5d08d0823045da8da556d54391[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 25 16:38:53 2023 +0600
+
+    create galler image modal
+
+[33mcommit 0d050ad8e4d7a411eeb123db9ecc4dfcf2491b7f[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 25 15:20:52 2023 +0600
+
+    show multiple iamges on gallery details page
+
+[33mcommit 4f5fa8eebfb8c677aa089b276370affdc10cace2[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 25 13:52:40 2023 +0600
+
+    brings images for gallery details and create heading image details
+
+[33mcommit b954e50d7a80768e54c49f006f74098c3922dd04[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Fri Mar 24 22:38:44 2023 +0600
+
+    create privacy policy page
+
+[33mcommit 49d0c1b7d34266e33264e769de7f34f05b12b625[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Fri Mar 24 19:56:55 2023 +0600
+
+    fix gallery page
+
+[33mcommit 1da800e9dbcac7e158a329ae3a90a1994473a777[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Fri Mar 24 18:50:25 2023 +0600
+
+    change something in home page according to final disign
+
+[33mcommit a522a9d21ad0accfebb2fb3b0177ec0bcc92982c[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Fri Mar 24 15:13:08 2023 +0600
+
+    home page and services page know more redirect to services and contact page
+
+[33mcommit aa6611bb677e5b5363772b4c121da7f5997feefb[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Fri Mar 24 06:51:53 2023 +0600
+
+    home page responsive done
+
+[33mcommit 9ba1789361a6aa481b5df768099693f0038458c7[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Thu Mar 23 19:14:36 2023 +0600
+
+    fix some bug
+
+[33mcommit 65e87198aa85d0b1e8dfc45c686f66c8c1e7c4d9[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Thu Mar 23 15:59:25 2023 +0600
+
+    menu responsive done
+
+[33mcommit bf63645b9063546204c67f33f152dcd93b058aad[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Thu Mar 23 14:33:49 2023 +0600
+
+    create contact page
+
+[33mcommit e40df3c1e915abb3f4bc04c6088689c2752c3907[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Thu Mar 23 14:23:00 2023 +0600
+
+    create about page
+
+[33mcommit 3330d5f8f45f24916c1c05f9ff350582fd5d84b0[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 22 20:54:51 2023 +0600
+
+    services page done
+
+[33mcommit 6a74888b1c43ac7c2f45581e3ac659bd8eac579f[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 22 19:32:03 2023 +0600
+
+    create testimonial component
+
+[33mcommit 8491008af727dc058668d9c8dd4c95abf6f8feab[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 22 19:13:24 2023 +0600
+
+    create footer component
+
+[33mcommit 569bfb3ce948d44ca40a8605d7905fea8262fcc7[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 22 19:09:00 2023 +0600
+
+    create recentWork and Contact component
+
+[33mcommit e2e3cbf84f8b4e259e7a29e2cf646913172e4333[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Wed Mar 22 15:31:55 2023 +0600
+
+    create choose component
+
+[33mcommit 0d1ae0a41bec9077af6d62883ca7aa09bcd1f5d2[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 21 22:58:33 2023 +0600
+
+    create businessSummer component
+
+[33mcommit 6ce42f67e173f6250aa35034a57a5c5d84b5af23[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 21 21:27:20 2023 +0600
+
+    create services section
+
+[33mcommit ea7b6705a14990ac61c37c176b1cba5607aa8530[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 21 19:44:26 2023 +0600
+
+    crete greeting component
+
+[33mcommit 9bdb6959ebcea613982988289dc99861d980c548[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 21 18:19:16 2023 +0600
+
+    create hero section
+
+[33mcommit 84fe65f09f33c9abf744e7582045acc9574aaf61[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Tue Mar 21 16:48:40 2023 +0600
+
+    create navbar
+
+[33mcommit 8acc385a5a3b8ddfa4a504b0330d4069c4c55a3c[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 18 22:49:42 2023 +0600
+
+    fix git related bug
+
+[33mcommit 6843005489eb642c6d51290f836f8788aa4b658a[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 18 22:15:04 2023 +0600
+
+    fix dot
+
+[33mcommit 573c52e907f25ad0a676b274effefeef208f37b1[m
+Author: rakibul-wdp <rakibul.wdp@gmail.com>
+Date:   Sat Mar 18 22:06:11 2023 +0600
+
+    commit from own id
+
+[33mcommit fe53e292868d9ec15f069ce2c719daf91fddadfb[m
+Author: Alphaclz111 <13913279552@163.com>
+Date:   Sat Mar 18 22:02:16 2023 +0600
+
+    gallery page image section done
+
+[33mcommit 1d8a157364db83e34fd39c32f6289614d95afbdb[m
+Author: Azhar Sayyed <azhartsiddiqui@gmail.com>
+Date:   Mon Mar 6 19:13:15 2023 +0530
+
+    site deployed
+
+[33mcommit 2c1f041d4dfc1f211d89c3b711d6c7328c2464b0[m
+Author: Azhar Sayyed <azhartsiddiqui@gmail.com>
+Date:   Mon Feb 27 10:42:40 2023 +0530
+
+    Initialize project using Create React App
