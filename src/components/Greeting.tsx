@@ -4,7 +4,7 @@ import Utility from "../assets/home/greeting/utility.svg";
 import Quality from "../assets/home/greeting/quality.svg";
 import Transparency from "../assets/home/greeting/transparency.svg";
 import Adhering from "../assets/home/greeting/adhering.svg";
-import OurService from "../assets/home/OurService.svg";
+import OurService from "../assets/home/ourService.svg";
 
 const Greeting = () => {
   return (
